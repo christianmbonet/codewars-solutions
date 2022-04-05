@@ -23,7 +23,7 @@ function solution(str, ending){
   return str.endsWith(ending);
 }
 
-const solution = () => {
-    
+const solution = (str, ending) => {
+    return str.endsWith(ending)
 }
 
