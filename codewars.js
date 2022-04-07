@@ -1,10 +1,10 @@
-// Multiply 8kyu
+// Multiply
 
 function multiply(a, b){
     return a * b
   }
 
-// Square every digit 7kyu
+// Square every digit
 
 function squareDigits(num){
     let string = num.toString();
@@ -17,7 +17,7 @@ function squareDigits(num){
   
   squareDigits(2);
 
-// String ends with 7kyu
+// String ends with
 
 function solution(str, ending){
   return str.endsWith(ending);
@@ -27,3 +27,14 @@ const solution = (str, ending) => {
     return str.endsWith(ending)
 }
 
+// Vowel Count
+
+function getCount(str) {
+  var vowelsCount = 0;
+     for (var i=0;i<str.length;i++){
+        if (str[i]=='a' || str[i]=='e' || str[i]=='i' || str[i]=='o' || str[i]=='u')
+            {vowelsCount+=1;}
+    }
+      
+  return vowelsCount;
+}
