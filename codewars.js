@@ -38,3 +38,9 @@ function getCount(str) {
       
   return vowelsCount;
 }
+
+// Return names that have exactly 4 letters
+
+function friend(friends){
+  return friends.filter(i => i.length === 4);
+    }
