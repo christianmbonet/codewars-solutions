@@ -44,3 +44,9 @@ function getCount(str) {
 function friend(friends){
   return friends.filter(i => i.length === 4);
     }
+
+// Reverse a string
+
+function solution(str){
+  return str.split("").reverse().join("")
+} 
