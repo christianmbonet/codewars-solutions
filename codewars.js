@@ -56,3 +56,9 @@ function solution(str){
 var stringToNumber = function(str){
   return Number(str)
 }
+
+// Remove spaces
+
+function noSpace(x){
+  return x.split(' ').join('')
+}
