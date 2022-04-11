@@ -50,3 +50,9 @@ function friend(friends){
 function solution(str){
   return str.split("").reverse().join("")
 } 
+
+// Convert string to a number
+
+var stringToNumber = function(str){
+  return Number(str)
+}
