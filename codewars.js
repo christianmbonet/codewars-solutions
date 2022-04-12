@@ -62,3 +62,9 @@ var stringToNumber = function(str){
 function noSpace(x){
   return x.split(' ').join('')
 }
+
+// Convert number to string
+
+function numberToString(num) {
+  return num.toString()
+}
