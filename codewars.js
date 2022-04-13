@@ -68,3 +68,9 @@ function noSpace(x){
 function numberToString(num) {
   return num.toString()
 }
+
+// Returning strings
+
+function greet(name){
+  return `Hello, ${name} how are you doing today?`
+}
