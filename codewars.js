@@ -118,3 +118,9 @@ function even_or_odd(number) {
     return "Odd"
   }
 }
+
+// Smallest integer
+
+  function findSmallestInt(args) {
+    return Math.min(...args)
+  } 
