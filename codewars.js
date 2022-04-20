@@ -130,3 +130,13 @@ function even_or_odd(number) {
 function cockroachSpeed(s) {
   return Math.floor(s * 27.78);
  }
+
+ // Return personalized message
+
+ function greet (name, owner) {
+  if (name === owner){
+    return "Hello boss"
+  } else {
+    return "Hello guest"
+  }
+}
