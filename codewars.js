@@ -124,3 +124,9 @@ function even_or_odd(number) {
   function findSmallestInt(args) {
     return Math.min(...args)
   } 
+
+// Converting kmph to cm per second
+
+function cockroachSpeed(s) {
+  return Math.floor(s * 27.78);
+ }
