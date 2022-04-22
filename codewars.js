@@ -140,3 +140,29 @@ function cockroachSpeed(s) {
     return "Hello guest"
   }
 }
+
+// NOT CODEWARS MAKE TRIANGLE
+
+function makeLine(length) {
+  var line = "";
+  for (var i = 1; i <= length; i++) {
+    for (var j = 1; j <= i; j++) {
+      line += "* "
+    }
+    line += "\n";
+  }
+  return line
+}
+
+// Is it a triangle
+
+function isTriangle(a,b,c){
+  if ( a === 0 || b === 0 || c === 0){
+    return false;
+  } 
+  else if (a + b < c || a + c < b || b + c < a || b + a < c){
+    return false;
+  } else {
+    return true;
+  }
+}
