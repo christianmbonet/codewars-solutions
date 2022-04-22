@@ -166,3 +166,9 @@ function isTriangle(a,b,c){
     return true;
   }
 }
+
+// Convert a string into an array
+
+function stringToArray(string){
+  return string.split(" ")
+}
