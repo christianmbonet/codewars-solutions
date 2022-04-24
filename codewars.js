@@ -172,3 +172,13 @@ function isTriangle(a,b,c){
 function stringToArray(string){
   return string.split(" ")
 }
+
+// Return class average and check if your grade is better
+
+function betterThanAverage(classPoints, yourPoints) {
+  const classAverage = classPoints.reduce((a, b) => a + b)/classPoints.length
+  if (classAverage > yourPoints){
+    return false
+  } else {
+    return true}
+}
