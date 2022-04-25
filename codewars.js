@@ -199,3 +199,13 @@ function getGrade (s1, s2, s3) {
     return 'F'
   }
 }
+
+// Calculate average, if no items in array return 0
+
+function find_average(array) {
+  if (array.length < 1){
+    return 0
+  } else {
+    return array.reduce((a, b)=>a+b)/array.length
+  }
+}
