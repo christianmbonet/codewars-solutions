@@ -230,3 +230,8 @@ const areaOrPerimeterWrong = function(l , w) {
   }
 };
 
+// DNA to RNA conversion // regex
+
+function DNAtoRNA(dna) {
+  return dna.replace(/T/g,"U")
+}
