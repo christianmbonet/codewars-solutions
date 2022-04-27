@@ -209,3 +209,24 @@ function find_average(array) {
     return array.reduce((a, b)=>a+b)/array.length
   }
 }
+
+// Calculate area or perimeter depending on if rectangle or square
+
+const areaOrPerimeter = (l , w) => {
+  if (l == w){
+    return l * w;
+  } else {
+    return ((l + w) * 2)
+  }
+};
+
+//WRONG but good example of error for above solution
+
+const areaOrPerimeterWrong = function(l , w) {
+  if (l == w){
+    return l * w;
+  } else if (l > w){
+    return ((l + w) * 2)
+  }
+};
+
