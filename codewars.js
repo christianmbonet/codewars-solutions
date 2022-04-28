@@ -235,3 +235,18 @@ const areaOrPerimeterWrong = function(l , w) {
 function DNAtoRNA(dna) {
   return dna.replace(/T/g,"U")
 }
+
+// Basic mathematical operations
+
+function basicOp(operation, value1, value2)
+{
+  if (operation == "*"){
+    return value1 * value2
+  } else if (operation == "/"){
+    return value1 / value2
+  } else if (operation == "+"){
+    return value1 + value2
+  } else if (operation == "-"){
+    return value1 - value2
+  }
+}
