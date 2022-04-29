@@ -250,3 +250,11 @@ function basicOp(operation, value1, value2)
     return value1 - value2
   }
 }
+
+// Remove every other item in array
+
+function removeEveryOther(arr){
+  for (i = 0; i < arr.length; i++){
+    arr.splice(i + 1, 1)
+} return arr
+}
