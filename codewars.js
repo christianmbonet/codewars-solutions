@@ -269,3 +269,8 @@ function stray(numbers) {
     }
   }
 
+// Explanation for above solution
+
+// creating a loop to iterate through numbers
+// while iterating, if a certain condition is true
+// return number[i]
