@@ -258,3 +258,14 @@ function removeEveryOther(arr){
     arr.splice(i + 1, 1)
 } return arr
 }
+
+// Find the stray number 
+
+function stray(numbers) {
+  for (i=0; i < numbers.length; i++){
+    if (numbers.indexOf(numbers[i])===numbers.lastIndexOf(numbers[i])){
+      return numbers[i]
+      }
+    }
+  }
+
