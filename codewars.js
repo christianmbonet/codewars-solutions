@@ -274,3 +274,24 @@ function stray(numbers) {
 // creating a loop to iterate through numbers
 // while iterating, if a certain condition is true
 // return number[i]
+
+// Return negative number
+
+function makeNegative(num) {
+  if (num < 0){
+    return num
+  } else if (num === 0){
+    return num
+  } else {
+    return num * -1
+  }
+}
+
+// Explanation for above solution
+
+// create if/else statement
+// if number is less than 0
+// return number
+// else if number is equal to 0
+// return 0
+// else return num * -1 (to make negative)
