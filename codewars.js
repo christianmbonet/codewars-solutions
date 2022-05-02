@@ -295,3 +295,9 @@ function makeNegative(num) {
 // else if number is equal to 0
 // return 0
 // else return num * -1 (to make negative)
+
+// To Uppercase
+
+function makeUpperCase(str) {
+  return str.toUpperCase()
+}
