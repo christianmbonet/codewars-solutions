@@ -4,19 +4,6 @@ function multiply(a, b){
     return a * b
   }
 
-// Square every digit
-
-function squareDigits(num){
-    let string = num.toString();
-    let results = [];
-    for (i=0; i < string.length; i++){
-      results[i] = string[i] * string[i];
-    }
-    return Number(results.join(''));
-  }
-  
-  squareDigits(2);
-
 // String ends with
 
 function solution(str, ending){
@@ -301,3 +288,45 @@ function makeNegative(num) {
 function makeUpperCase(str) {
   return str.toUpperCase()
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Square every digit
+
+function squareDigits(num){
+  let string = num.toString();
+  let results = [];
+  for (i=0; i < string.length; i++){
+    results[i] = string[i] * string[i];
+  }
+  return Number(results.join(''));
+}
+
+squareDigits(2);
