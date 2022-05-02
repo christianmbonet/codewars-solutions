@@ -289,6 +289,17 @@ function makeUpperCase(str) {
   return str.toUpperCase()
 }
 
+// Sum of a mixed array // incorrect answer example
+
+function sumMix(x){
+  for (i=0; i < x.length; i++){
+    if (typeof x[i] == 'string'){
+      return x += Number(x[i])
+    } else {
+      return x += x[i]
+    }
+  }
+}
 
 
 
