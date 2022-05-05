@@ -326,7 +326,7 @@ function expressionMatter(a, b, c) {
 )
   }
 
-// Sum of numbers
+// Sum of numbers (WRONG)
 
 function getSum( a,b )
 {
@@ -336,6 +336,22 @@ function getSum( a,b )
     return a + b
   }
 }
+
+// Sum of numbers (RIGHT)
+
+function getSum( a,b )
+{
+  let count = 0
+  if (a === b){
+    return a
+  } else if ( a < b ){
+    for (count = 0; a <= b; a++){
+      count += a}
+    } else if ( b < a){
+      count += b
+    }
+  return count
+  }
 
 
 
