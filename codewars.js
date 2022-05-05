@@ -326,9 +326,16 @@ function expressionMatter(a, b, c) {
 )
   }
 
+// Sum of numbers
 
-
-
+function getSum( a,b )
+{
+  if (a === b){
+    return a
+  } else {
+    return a + b
+  }
+}
 
 
 
