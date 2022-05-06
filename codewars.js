@@ -353,7 +353,11 @@ function getSum( a,b )
   return count
   }
 
+// Return the opposite number
 
+function opposite(number) {
+  return number * -1
+}
 
 
 
