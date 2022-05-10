@@ -413,20 +413,6 @@ function setAlarm(employed, vacation){
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Square every digit
 
 function squareDigits(num){
@@ -439,3 +425,4 @@ function squareDigits(num){
 }
 
 squareDigits(2);
+
