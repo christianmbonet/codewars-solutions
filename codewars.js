@@ -432,3 +432,14 @@ function squareDigits(num){
 
 squareDigits(2);
 
+// Is it a palindrome
+
+function isPalindrome(x) {
+  const palin = x.toLowerCase()
+  const drome = x.toLowerCase().split("").reverse().join("");
+  if (drome === palin){
+    return true;
+  } else {
+    return false;
+  }
+}
