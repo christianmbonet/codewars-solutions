@@ -450,3 +450,9 @@ function gooseFilter (birds) {
   var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
   return birds.filter((bird) => !geese.includes(bird))
 }
+
+// Sort by string length
+
+function sortByLength (array) {
+  return array.sort((a,b) => a.length - b.length)
+};
