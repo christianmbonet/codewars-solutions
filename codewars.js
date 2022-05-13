@@ -456,3 +456,13 @@ function gooseFilter (birds) {
 function sortByLength (array) {
   return array.sort((a,b) => a.length - b.length)
 };
+
+// Is he gonna survive
+
+function hero(bullets, dragons){
+  if (bullets/2 >= dragons){
+    return true;
+  } else {
+    return false
+  }
+ }
