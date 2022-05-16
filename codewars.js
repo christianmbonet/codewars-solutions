@@ -477,3 +477,8 @@ function hero(bullets, dragons){
   }
 };
 
+// Boolean to string
+
+function booleanToString(b){
+  return b.toString();
+}
