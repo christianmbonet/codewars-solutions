@@ -509,3 +509,11 @@ function switchItUp(number){
       return 'Nine'
   }
 }
+
+// Calculate Volume
+
+class Kata {
+  static getVolumeOfCuboid(length, width, height) {
+    return length * width * height
+  }
+}
