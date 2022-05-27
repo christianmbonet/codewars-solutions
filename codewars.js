@@ -527,11 +527,9 @@ function otherAngle(a, b) {
 // Removing vowels
 
 function disemvowel(str) {
-  var newStr = "";
-  for (i = 0; i <= str.length; i++) {
-    if (str.charAt(i) != "a" || str.charAt(i) != "e" || str.charAt(i) != "i" || str.charAt(i) != "o" || str.charAt(i) != "u") {
-      newStr += str.charAt(i)
-    }
-    return newStr;
-  }
+  var vowels = ['a', 'e', 'i', 'o', 'u'];
+  return str
+    .split('')
+    .filter(el => vowels.indexOf(el.toLowerCase()) == -1)
+    .join('');
 }
