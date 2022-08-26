@@ -548,3 +548,15 @@ const sequenceSum = (begin, end, step) => {
   for (let i = begin; i <= end; i += step) sum += i;
   return sum
 };
+
+// Sum of positive numbers
+
+function positiveSum(arr) {
+  let sum = 0
+  for (i=0; i <arr.length; i++){
+    if (arr[i] > 0){
+      sum += arr[i]
+    }
+  }
+  return sum
+}
