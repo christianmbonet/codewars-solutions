@@ -560,3 +560,10 @@ function positiveSum(arr) {
   }
   return sum
 }
+
+// Map multiply * 2
+
+function maps(x){
+  const map = x.map(i => i*2)
+  return map
+}
