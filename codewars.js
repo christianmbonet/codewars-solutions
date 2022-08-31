@@ -605,3 +605,13 @@ function likes(names) {
     return `${names[0]}, ${names[1]} and ${number} others like this`
   }
 }
+
+// Counting sheep
+
+function countSheeps(arrayOfSheep) {
+  let counter = 0
+  for(let i = 0; i < arrayOfSheep.length; i++) {
+      if(arrayOfSheep[i]) counter += 1
+  }
+  return counter
+}
