@@ -615,3 +615,9 @@ function countSheeps(arrayOfSheep) {
   }
   return counter
 }
+
+// Sentence smash
+
+function smash (words) {
+  return words.join(' ')
+};
