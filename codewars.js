@@ -632,8 +632,14 @@ function areYouPlayingBanjo(name) {
   }
 }
 
-// Needle in a haystack
+// Needle in a haystack - google
 
 function findNeedle(haystack) {
   return `found the needle at position ${haystack.indexOf("needle")}`
+}
+
+// Array.diff - google
+
+function arrayDiff(a, b) {
+  return a.filter( e => !b.includes(e))
 }
