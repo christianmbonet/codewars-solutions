@@ -643,3 +643,9 @@ function findNeedle(haystack) {
 function arrayDiff(a, b) {
   return a.filter( e => !b.includes(e))
 }
+
+// Liters of water to drink when given time, rounded number
+
+function litres(time) {
+  return Math.floor(time * 0.5);
+}
