@@ -661,3 +661,9 @@ function rentalCarCost(d) {
   } else {
     return total}
 }
+
+// REGEX Replace - google - struggling with regex
+
+function removeExclamationMarks(s) {
+  return s.replace(/\!/g, '')
+}
