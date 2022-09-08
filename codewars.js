@@ -649,3 +649,15 @@ function arrayDiff(a, b) {
 function litres(time) {
   return Math.floor(time * 0.5);
 }
+
+// How much would a rental cost given variables and discounts? Transportation on vacation
+
+function rentalCarCost(d) {
+  const total = d * 40;
+  if (d > 6){
+    return total - 50;
+  } else if (d > 2){
+    return total - 20;
+  } else {
+    return total}
+}
