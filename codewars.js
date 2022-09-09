@@ -667,3 +667,14 @@ function rentalCarCost(d) {
 function removeExclamationMarks(s) {
   return s.replace(/\!/g, '')
 }
+
+// Count by x
+
+function countBy(x, n) {
+  let z = [];
+    for (i=1; i <= n; i++){
+      z.push(x * i)
+    }
+  return z;
+}
+
