@@ -683,3 +683,29 @@ function countBy(x, n) {
 function past(h, m, s){
   return ((h * 60 * 60) + (m * 60) + s) * 1000
 }
+
+// You only need one beginner
+
+// Incorrect answer
+
+function check(a, x) {
+  for (let i = 0; i < a.length; i++){
+    if (a[i] === x){
+      return true;
+    } else {
+      return false;
+    }
+  }
+}
+
+// Correct answer
+
+function check(a, x) {
+  for (let i = 0; i < a.length; i++){
+    if (a.includes(x)){
+      return true;
+    } else {
+      return false;
+    }
+  }
+}
