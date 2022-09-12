@@ -725,7 +725,7 @@ function doubleInteger(i) {
   return i * 2;
 }
 
-// Change the string depending on amount of hoops made
+// Change the string depending on amount of hoops mades
 
 function hoopCount (n) {
   if (n >= 10){
