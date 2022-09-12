@@ -718,3 +718,9 @@ function doubleChar(str) {
    string += str[i] + str[i]
   } return string
 }
+
+// Double the integer
+
+function doubleInteger(i) {
+  return i * 2;
+}
