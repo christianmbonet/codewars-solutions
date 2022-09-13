@@ -734,3 +734,13 @@ function hoopCount (n) {
     return 'Keep at it until you get it'
   }
 }
+
+// Odd or even
+
+function testEven(n) {
+  if (n%2 == 0){
+    return true
+  } else {
+    return false
+  }
+}
