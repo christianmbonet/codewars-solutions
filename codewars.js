@@ -798,6 +798,6 @@ function twoSum(numbers, target) {
   } else if (indices.length > 2){
       twoIndices.push(indices[0])
       twoIndices.push(indices[1])
+      return twoIndices;
     } 
-  } return twoIndices;
-}
+  }
