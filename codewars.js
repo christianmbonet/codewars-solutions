@@ -754,3 +754,50 @@ function paperwork(n, m) {
     return n * m
   }
 }
+
+// Return indices of sum equal to target - INCORRECT ATTEMPT
+
+function twoSum(numbers, target) {
+  for (i=0; i < numbers.length; i++){
+    for (j=0; j < numbers.length; j++){
+      if (numbers[i] + numbers[j] == target){
+        return [numbers[i], numbers[j]]
+      }
+    }
+  }
+}
+
+// Return indices of sum equal to target - CORRECTION (NOT FULLY CORRECT - EDGE CASES)
+
+function twoSum(numbers, target) {
+  let indices = [];
+  for (i=0; i < numbers.length; i++){
+    for (j= i + 1; j < numbers.length; j++){
+      if (numbers[i] + numbers[j] === target){
+        indices.push(i);
+        indices.push(j);
+      } 
+    }
+  } return indices;
+}
+
+// Return indices of sum equal to target - WORKBOOK (poor solution)
+
+function twoSum(numbers, target) {
+  let indices = [];
+  let twoIndices = []
+  for (i=0; i < numbers.length; i++){
+    for (j= i + 1; j < numbers.length; j++){
+      if (numbers[i] + numbers[j] === target){
+        indices.push(i);
+        indices.push(j);
+      } 
+    }
+  } if (indices.length < 2){
+    return indices
+  } else if (indices.length > 2){
+      twoIndices.push(indices[0])
+      twoIndices.push(indices[1])
+    } 
+  } return twoIndices;
+}
