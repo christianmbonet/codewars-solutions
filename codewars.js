@@ -744,3 +744,13 @@ function testEven(n) {
     return false
   }
 }
+
+// Return School Paperwork
+
+function paperwork(n, m) {
+  if (n < 0 || m < 0){
+      return 0
+  } else {
+    return n * m
+  }
+}
