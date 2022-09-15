@@ -801,3 +801,29 @@ function twoSum(numbers, target) {
       return twoIndices;
     } 
   }
+
+  // Fake Binary - WRONG ATTEMPT - not an array .push
+
+  function fakeBin(x){
+    let newString = ''
+    for (i=0; i < x.length; i++){
+      if (x[i] < 0){
+        newString.push('0');
+      } else if (x[i] >= '0'){
+        newString.push('1')
+      }
+    } return newString;
+  }
+
+  // Fake binary - ANSWER
+
+  function fakeBin(x){
+    let newString = ''
+    for (i=0; i < x.length; i++){
+      if (x[i] < 5){
+        newString += '0'
+      } else {
+        newString += '1'
+      }
+    } return newString;
+  }
