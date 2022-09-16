@@ -827,3 +827,9 @@ function twoSum(numbers, target) {
       }
     } return newString;
   }
+
+  // Square argument
+
+  const square = (x) => {
+    return x * x
+  }
