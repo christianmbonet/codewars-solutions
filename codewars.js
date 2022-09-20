@@ -833,3 +833,9 @@ function twoSum(numbers, target) {
   const square = (x) => {
     return x * x
   }
+
+  // Parse nice int from char problem
+
+  function getAge(inputString){
+    return Number(inputString.charAt(0))
+  }
