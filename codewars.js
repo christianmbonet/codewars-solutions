@@ -850,6 +850,6 @@ function twoSum(numbers, target) {
     } else if (operator == 'multiply'){
       return a * b
     } else if (operator == 'divide'){
-      return a/b
+      return a / b
     }
   }
