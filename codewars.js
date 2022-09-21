@@ -874,3 +874,9 @@ function findNb(m) {
       
     }
 }
+
+// Grasshopper - Terminal game move forward
+
+function move (position, roll) {
+  return (roll * 2) + position
+}
