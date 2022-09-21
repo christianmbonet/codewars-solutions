@@ -880,3 +880,9 @@ function findNb(m) {
 function move (position, roll) {
   return (roll * 2) + position
 }
+
+// Ternary operator
+
+function saleHotdogs(n){
+  return n * (n<5 ? 100 : n >= 5 && n < 10 ? 95 : 90)
+}
