@@ -886,3 +886,20 @@ function move (position, roll) {
 function saleHotdogs(n){
   return n * (n<5 ? 100 : n >= 5 && n < 10 ? 95 : 90)
 }
+
+// Quarter of the year
+
+const quarterOf = (month) => {
+  if(month < 4){
+    return 1;
+  } 
+  if(month < 7){
+    return 2;
+  }
+  if(month < 10){
+    return 3;
+  }
+    else {
+      return 4;
+    }
+ }
