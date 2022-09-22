@@ -903,3 +903,9 @@ const quarterOf = (month) => {
       return 4;
     }
  }
+
+ // You're a square - math.sqrt takes square root... if divided by one and remainder equal zero
+
+ var isSquare = function(n){
+  return Math.sqrt(n) % 1 == 0;
+}
