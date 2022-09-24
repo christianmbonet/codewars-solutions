@@ -910,4 +910,17 @@ const quarterOf = (month) => {
   return Math.sqrt(n) % 1 == 0;
 }
 
-// 
+// Calculate BMI 
+
+function bmi(weight, height) {
+  const bm = weight / (height * height)
+  if (bm <= 18.5){
+  return "Underweight";
+    } else if (bm <= 25.0){
+  return "Normal";
+    } else if (bm <= 30.0){
+  return "Overweight";
+    } else if (bm > 18.5){
+  return "Obese";
+    }
+}
