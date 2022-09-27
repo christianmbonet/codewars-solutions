@@ -930,3 +930,9 @@ function bmi(weight, height) {
 function removeUrlAnchor(url){
   return url.split('#')[0]
  }
+
+ // Whats the real floor - ternary
+
+ function getRealFloor(n) {
+  return n <= 0 ? n : n > 13 ? n-2 : n-1;
+}
