@@ -936,3 +936,22 @@ function removeUrlAnchor(url){
  function getRealFloor(n) {
   return n <= 0 ? n : n > 13 ? n-2 : n-1;
 }
+
+// Reverse Words
+
+function reverseWords(str) {
+  return str.split('')
+.reverse()
+.join('')
+.split(' ')
+.reverse()
+.join(' ');
+}
+
+// Split at every character to make array
+// Reverse whole array
+// Join all characters
+// Words flipped but reversed
+// Split words anywhere there's a space
+// Reverse them back into order
+// Join anywhere theres a space
