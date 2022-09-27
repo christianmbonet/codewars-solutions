@@ -955,3 +955,9 @@ function reverseWords(str) {
 // Split words anywhere there's a space
 // Reverse them back into order
 // Join anywhere theres a space
+
+// Ones and Zeros - understand the function but syntax?
+
+const binaryArrayToNumber = arr => 
+  parseInt(arr.join(''),2)
+  
