@@ -924,3 +924,9 @@ function bmi(weight, height) {
   return "Obese";
     }
 }
+
+// Return everything before the anchor
+
+function removeUrlAnchor(url){
+  return url.split('#')[0]
+ }
