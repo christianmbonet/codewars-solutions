@@ -966,3 +966,22 @@ const binaryArrayToNumber = arr =>
 function reverseList(list) {
   return list.reverse();
 }
+
+// Exes and Ohs
+
+function XO(str) {
+  let countX = 0;
+  let countO = 0;
+  for (i=0; i < str.length; i++){
+    if (str[i] == 'x' || str[i] == 'X'){
+      countX = countX + 1;
+    } else if (str[i] == 'o' || str[i] == 'O'){
+      countO = countO + 1;
+    }
+  }
+  if (countO != countX){
+    return false;
+  } else {
+    return true;
+  }
+}
