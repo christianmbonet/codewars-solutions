@@ -961,3 +961,8 @@ function reverseWords(str) {
 const binaryArrayToNumber = arr => 
   parseInt(arr.join(''),2)
   
+// Reverse list order
+
+function reverseList(list) {
+  return list.reverse();
+}
