@@ -999,3 +999,9 @@ function finalGrade (exam, projects) {
     return 0;
   }
 }
+
+// Will there be enough space?
+
+function enough(cap, on, wait) {
+  return (on + wait) >= cap ? (on + wait) - cap : 0
+}
