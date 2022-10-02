@@ -1005,3 +1005,9 @@ function finalGrade (exam, projects) {
 function enough(cap, on, wait) {
   return (on + wait) >= cap ? (on + wait) - cap : 0
 }
+
+// Century from year - Math.ceil rounds up
+
+function century(year) {
+  return Math.ceil( year / 100)
+}
