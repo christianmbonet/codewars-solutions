@@ -1012,7 +1012,7 @@ function century(year) {
   return Math.ceil( year / 100)
 }
 
-// Grosshopper Debug sayHello
+// Grosshopper Debug
 
 function sayHello(name) {
   return `Hello, ${name}`
