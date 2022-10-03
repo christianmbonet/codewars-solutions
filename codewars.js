@@ -1011,3 +1011,9 @@ function enough(cap, on, wait) {
 function century(year) {
   return Math.ceil( year / 100)
 }
+
+// Grosshopper Debug sayHello
+
+function sayHello(name) {
+  return `Hello, ${name}`
+}
