@@ -1017,3 +1017,13 @@ function century(year) {
 function sayHello(name) {
   return `Hello, ${name}`
 }
+
+// Convert boolean to string
+
+function boolToWord( bool ){
+  if (bool == true){
+    return "Yes"
+  } else {
+    return "No"
+  }
+}
