@@ -1034,3 +1034,15 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
   let double = dadYearsOld - sonYearsOld * 2;
   return double < 0 ? double * (-1) : double;
 }
+
+// Descending order
+
+function descendingOrder(n){
+  let str = n.toString()
+   .split('')
+   .sort(function(a, b) {
+       return b - a;
+     })
+     .join('');
+ return parseInt(str);
+}
