@@ -1055,3 +1055,14 @@ function calculateYears(principal, interest, tax, desired) {
      years++;
     } return years
 }
+
+// Filter list
+
+function filter_list(l) {
+  let newList = [];
+  for (i=0; i < l.length; i++){
+    if (Number.isInteger(l[i])){
+      newList.push(l[i])
+    }
+  } return newList
+}
