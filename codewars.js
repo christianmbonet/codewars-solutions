@@ -1067,7 +1067,7 @@ function filter_list(l) {
   } return newList
 }
 
-// Is it uppercase?
+// Multiply
 
 function simpleMultiplication(number) {
   if (number % 2 == 0){
@@ -1075,4 +1075,10 @@ function simpleMultiplication(number) {
   } else {
     return number * 9
   }
+}
+
+// Repeat string
+
+function repeatStr (n, s) {
+  return s.repeat(n);
 }
