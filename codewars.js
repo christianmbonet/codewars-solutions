@@ -1082,3 +1082,9 @@ function simpleMultiplication(number) {
 function repeatStr (n, s) {
   return s.repeat(n);
 }
+
+// Sort ascending
+
+function solution(nums){
+  return nums !== null ? nums.sort((a,b)=> a-b) : []
+  }
