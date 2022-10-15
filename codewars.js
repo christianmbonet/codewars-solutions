@@ -1094,3 +1094,14 @@ function solution(nums){
 function findShort(s){
   return Math.min.apply(null, s.split(' ').map(s => s.length))
 }
+
+// Occurences of letter in string
+
+function strCount(str, letter){  
+  let count = 0;
+  for (i=0; i < str.length; i++){
+    if (str[i] == letter){
+      count = count + 1;
+    }
+  } return count
+}
