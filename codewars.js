@@ -1095,7 +1095,7 @@ function findShort(s){
   return Math.min.apply(null, s.split(' ').map(s => s.length))
 }
 
-// Occurences of letter in string
+// Occurences of letter in str
 
 function strCount(str, letter){  
   let count = 0;
