@@ -1088,3 +1088,9 @@ function repeatStr (n, s) {
 function solution(nums){
   return nums !== null ? nums.sort((a,b)=> a-b) : []
   }
+
+// Shortest word
+
+function findShort(s){
+  return Math.min.apply(null, s.split(' ').map(s => s.length))
+}
