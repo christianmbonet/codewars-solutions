@@ -1115,3 +1115,10 @@ function removeSmallest(numbers) {
   numbers.splice(small, 1);
   return numbers;
 }
+
+function removeSmallest(numbers) {
+  let newNum = numbers.slice(0);
+  let small = numbers.indexOf(Math.min(...numbers));
+  newNum.splice(small, 1);
+  return newNum;
+}
