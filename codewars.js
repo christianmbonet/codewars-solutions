@@ -1105,3 +1105,13 @@ function strCount(str, letter){
     }
   } return count
 }
+
+
+// Remove the minimum
+
+function removeSmallest(numbers) {
+  let newNum = numbers.slice(0);
+  let small = numbers.indexOf(Math.min(...numbers));
+  numbers.splice(small, 1);
+  return numbers;
+}
