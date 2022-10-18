@@ -1122,3 +1122,13 @@ function removeSmallest(numbers) {
   newNum.splice(small, 1);
   return newNum;
 }
+
+// Plural
+
+function plural(n) {
+  if (n == 1){
+    return false
+  } else {
+    return true
+  }
+}
