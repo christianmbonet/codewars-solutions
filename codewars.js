@@ -1132,3 +1132,23 @@ function plural(n) {
     return true
   }
 }
+
+// Sum the strings - not correct, does not account for empty string edge case
+
+function sumStr(a,b) {
+  let numA = parseInt(a);
+  let numB = parseInt(b);
+  if (a == 'zero'){
+    return (0 + numB).toString();
+  } else if (b == 'zero'){
+    return (0 + numA).toString()
+  } else {
+    return (numA + numB).toString();
+  }
+}
+
+// Correct answer 
+
+function sumStr(a,b) {
+  return String(+a + +b);
+}
