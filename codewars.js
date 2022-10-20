@@ -1152,3 +1152,9 @@ function sumStr(a,b) {
 function sumStr(a,b) {
   return String(+a + +b);
 }
+
+// Round to next multiple of 5
+
+function roundtonext5(x) {
+    return Math.ceil(x/5)*5;
+}
