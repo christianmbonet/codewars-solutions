@@ -1158,3 +1158,9 @@ function sumStr(a,b) {
 function roundtonext5(x) {
     return Math.ceil(x/5)*5;
 }
+
+// Remove first and last character from string
+
+function removeChar(str){
+  return str.slice(1, -1)
+};
