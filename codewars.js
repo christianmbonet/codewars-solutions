@@ -1210,4 +1210,8 @@ function peopleWithAgeDrink(old) {
   }
 };
 
-//
+// Hex to decimal 
+
+function hexToDec(hexString){
+  return parseInt(hexString, 16)
+}
