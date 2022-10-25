@@ -1215,3 +1215,9 @@ function peopleWithAgeDrink(old) {
 function hexToDec(hexString){
   return parseInt(hexString, 16)
 }
+
+// Name shuffler
+
+function nameShuffler(str){
+  return str.split(' ').reverse().join(' ')
+}
