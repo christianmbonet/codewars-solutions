@@ -1221,3 +1221,19 @@ function hexToDec(hexString){
 function nameShuffler(str){
   return str.split(' ').reverse().join(' ')
 }
+
+// Count of positives / sum of negatives
+
+function countPositivesSumNegatives(input) {
+  let newArr = [0,0];
+  if (input == null || input.length < 1){
+    return [];
+  }
+  for (i=0; i < input.length; i++){
+    if (input[i] > 0){
+      newArr[0] = newArr[0] + 1;
+    } else if (input[i] < 0){
+      newArr[1] = newArr[1] + input[i];
+    } 
+  } return newArr
+}
