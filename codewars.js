@@ -1257,7 +1257,7 @@ function squareSum(numbers){
   } return sum
 }
 
-// Binary addition
+// Addition to binary
 
 function addBinary(a,b) {
   let sum = a + b;
