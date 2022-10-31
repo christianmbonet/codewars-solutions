@@ -1248,11 +1248,18 @@ function smallEnough(a, limit){
   } return true
 }
 
-// square(n) Sum
+// Square(n) Sum
 
 function squareSum(numbers){
   let sum = 0;
   for (i=0; i < numbers.length; i++){
     sum += numbers[i] **2
   } return sum
+}
+
+// Binary addition
+
+function addBinary(a,b) {
+  let sum = a + b;
+  return sum.toString(2)
 }
