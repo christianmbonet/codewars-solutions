@@ -1263,3 +1263,9 @@ function addBinary(a,b) {
   let sum = a + b;
   return sum.toString(2)
 }
+
+// Convert number to reversed string
+
+function digitize(n) {
+  return n.toString().split('').reverse().map(Number)
+}
