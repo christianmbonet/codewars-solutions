@@ -1269,3 +1269,14 @@ function addBinary(a,b) {
 function digitize(n) {
   return n.toString().split('').reverse().map(Number)
 }
+
+// Grasshopper terminal game combat
+
+function combat(health, damage) {
+  let newHealth = health - damage;
+  if (newHealth < 0){
+    return 0
+  } else {
+    return newHealth
+  }
+}
