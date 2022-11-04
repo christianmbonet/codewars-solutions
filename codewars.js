@@ -1300,3 +1300,13 @@ function multiTable(number) {
     let total = i * number
   return `${i} * ${number} = ${total}\n`
 }}
+
+// Multiplication table - correct
+
+function multiTable(number) {
+  let answer = ''
+  for (i=1; i <= 10; i++){
+    let total = i * number
+    answer += `${i} * ${number} = ${total}\n`
+} return answer.trim('\n')
+}
