@@ -1292,3 +1292,11 @@ function lovefunc(flower1, flower2){
     return true
   }
 }
+
+// Multiplication table - correct but not correct
+
+function multiTable(number) {
+  for (i=1; i <= 10; i++){
+    let total = i * number
+  return `${i} * ${number} = ${total}\n`
+}}
