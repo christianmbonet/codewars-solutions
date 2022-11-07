@@ -1310,3 +1310,43 @@ function multiTable(number) {
     answer += `${i} * ${number} = ${total}\n`
 } return answer.trim('\n')
 }
+
+// Training JS Types
+
+let v1 = 50,
+    v2 = 100,
+    v3 = 150,
+    v4 = 200,
+    v5 = 2,
+    v6 = 250;
+
+function equal1(){
+  let a = 50,   
+      b = 50;   
+  return a + b;
+}
+
+//Please refer to the example above to complete the following functions
+function equal2(){
+  let a =  200, //set number value to a
+      b =  100; //set number value to b
+  return a - b;
+}
+
+function equal3(){
+  let a =  50, //set number value to a
+      b =  2; //set number value to b
+  return a * b;
+}
+
+function equal4(){
+  let a =  100, //set number value to a
+      b =  1; //set number value to b
+  return a / b;
+}
+
+function equal5(){
+  let a =  250, //set number value to a
+      b =  150; //set number value to b
+  return a % b;
+}
