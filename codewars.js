@@ -1350,3 +1350,13 @@ function equal5(){
       b =  150; //set number value to b
   return a % b;
 }
+
+// Grasshopper - Factor of base
+
+function checkForFactor (base, factor) {
+  if (base % factor == 0){
+    return true
+  } else {
+    return false
+  }
+}
