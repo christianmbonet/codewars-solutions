@@ -1360,3 +1360,13 @@ function checkForFactor (base, factor) {
     return false
   }
 }
+
+// Wide mouthed frog
+
+function mouthSize(animal) {
+  if (animal == 'alligator' || animal == 'ALLIGATOR'){
+    return 'small'
+  } else {
+    return 'wide'
+  }
+}
