@@ -1386,3 +1386,15 @@ function feast(beast, dish) {
  function hello(name) {
   return `Hello, ${name ? name[0].toUpperCase()  + name.slice(1).toLowerCase() : "World"}!`;
 }
+
+// Sum of a sequence 
+
+const sequenceSum = (begin, end, step) => {
+  let count = 0;
+  if (begin > end){
+    return 0
+  } else {
+    for (let i = begin; i <= end; i += step) {
+    count = count + i
+  } return count
+}}
