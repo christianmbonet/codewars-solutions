@@ -1398,3 +1398,9 @@ const sequenceSum = (begin, end, step) => {
     count = count + i
   } return count
 }}
+
+// Grasshopper - Messi Goals
+
+function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  return laLigaGoals + copaDelReyGoals + championsLeagueGoals
+}
