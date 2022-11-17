@@ -1404,3 +1404,10 @@ const sequenceSum = (begin, end, step) => {
 function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
   return laLigaGoals + copaDelReyGoals + championsLeagueGoals
 }
+
+// Correct the mistakes of the character 
+
+function correct(string)
+{
+  return string.replace(/0/g, "O").replace(/1/g, "I").replace(/5/g, "S");
+}
