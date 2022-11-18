@@ -1411,3 +1411,13 @@ function correct(string)
 {
   return string.replace(/0/g, "O").replace(/1/g, "I").replace(/5/g, "S");
 }
+
+// If you cant sleep just count sheep
+
+var countSheep = function (num){
+  let sheep = '';
+  for (var i = 0; i < num; i++) {
+    sheep += (i+1) + ' sheep...';
+  }
+  return sheep;
+}
