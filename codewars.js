@@ -1427,3 +1427,9 @@ var countSheep = function (num){
 function checkCoupon(enteredCode, correctCode, currentDate, expirationDate){
   return enteredCode === correctCode && Date.parse(expirationDate) >= Date.parse(currentDate)
 }
+
+// Find the middle element
+
+function gimme (triplet) {
+  return triplet.indexOf([...triplet].sort((a, b) => a - b)[1]);
+}
