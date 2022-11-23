@@ -1433,3 +1433,12 @@ function checkCoupon(enteredCode, correctCode, currentDate, expirationDate){
 function gimme (triplet) {
   return triplet.indexOf([...triplet].sort((a, b) => a - b)[1]);
 }
+
+// Filling an array
+
+const arr = N => {
+  const arr = []
+  for (i=0; i <= N-1; i++){
+    arr.push(i)
+  } return arr
+  }
