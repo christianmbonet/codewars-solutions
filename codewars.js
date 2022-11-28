@@ -1442,3 +1442,9 @@ const arr = N => {
     arr.push(i)
   } return arr
   }
+
+  // Hello World
+
+  function greet() {
+    return "hello world!"
+}
