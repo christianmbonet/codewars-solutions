@@ -1448,3 +1448,10 @@ const arr = N => {
   function greet() {
     return "hello world!"
 }
+
+// Grasshopper Basic Function Fix
+
+function addFive(num) {
+  var total = num + 5
+  return total
+}
