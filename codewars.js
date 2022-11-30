@@ -1455,3 +1455,7 @@ function addFive(num) {
   var total = num + 5
   return total
 }
+
+// Bin to dec
+
+binToDec = (bin) => parseInt(bin, 2)
