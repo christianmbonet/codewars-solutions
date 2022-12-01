@@ -1459,3 +1459,13 @@ function addFive(num) {
 // Bin to dec
 
 binToDec = (bin) => parseInt(bin, 2)
+
+// Exlamation marks at the end
+
+const remove = (string) => {
+  if (string[string.length - 1] === "!") {
+        return string.slice(0, string.length - 1);
+    } else {
+        return string
+    }
+}
