@@ -1469,3 +1469,27 @@ const remove = (string) => {
         return string
     }
 }
+
+// Invert values
+
+function invert(array) {
+  let newArr = [];
+   for (i = 0; i < array.length; i++){
+     if (array[i] < 0){
+       newArr.push (array[i] * -1)
+     } else if (array[i] > 0){
+       newArr.push (array[i] * -1)
+     } else {
+       newArr.push (array[i] * -1)
+     }
+   } return newArr
+}
+
+// Invert values - refactor
+
+function invert(array) {
+  let newArr = [];
+   for (i = 0; i < array.length; i++){
+     newArr.push(array[i] * -1)
+   } return newArr
+}
