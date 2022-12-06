@@ -1503,3 +1503,13 @@ function even_or_odd(number) {
     return "Odd"
   }
 }
+
+// Find the min and max
+
+var min = function(list){
+  return Math.min(...list)
+}
+
+var max = function(list){
+  return Math.max(...list)
+}
