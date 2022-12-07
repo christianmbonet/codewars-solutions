@@ -1513,3 +1513,9 @@ var min = function(list){
 var max = function(list){
   return Math.max(...list)
 }
+
+// Sentence smash 
+
+function smash (words) {
+  return words.join(' ')
+};
