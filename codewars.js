@@ -1519,3 +1519,20 @@ var max = function(list){
 function smash (words) {
   return words.join(' ')
 };
+
+// Mumbling 
+
+function accum(s) {
+  const ans = []
+  const lowercase = s.toLowerCase()
+
+  for(let i = 0; i < lowercase.length; i++) {
+    let str = lowercase[i].toUpperCase()
+    for(let j = 0; j < i; j++) {
+      str += lowercase[i]
+    }
+    ans.push(str)
+  }
+
+  return ans.join("-")
+}
