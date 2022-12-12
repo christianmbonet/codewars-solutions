@@ -1547,3 +1547,13 @@ function twoSum(numbers, target) {
     }
   }
 }
+
+
+// Find the unique number
+
+function findUniq(arr) {
+  return arr.find(
+     (item) => arr.indexOf(item) === arr.lastIndexOf(item) //
+   );
+ }
+ 
