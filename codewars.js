@@ -1573,3 +1573,13 @@ function howManyLightsabersDoYouOwn(name) {
 var number=function(array){
   return array.map((element, index) => `${index + 1}: ${element}`)
 }
+
+// Count by x
+
+function countBy(x, n) {
+  let z = [];
+    for (i=1; i <= n; i++){
+      z.push(x * i)
+    }
+  return z;
+}
