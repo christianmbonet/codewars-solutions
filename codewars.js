@@ -1584,7 +1584,7 @@ function countBy(x, n) {
   return z;
 }
 
-// Summation
+// Summation - grasshopper
 
 var summation = function (num) {
   let sum = 0;
