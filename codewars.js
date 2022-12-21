@@ -1599,3 +1599,9 @@ var summation = function (num) {
 function getRealFloor(n) {
   return n <= 0 ? n : n > 13 ? n-2 : n-1;
 }
+
+// Replace vowels with exclamation
+
+function replace(s){
+  return s.replace(/[aeiou]/gi, "!")
+ }
