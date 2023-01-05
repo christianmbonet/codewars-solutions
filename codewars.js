@@ -1625,3 +1625,13 @@ function rainAmount(mm){
        return "Your plant has had more than enough water for today!"
   }
 }
+
+// Super duper easy
+
+function problem(x){
+  if (typeof x == "string"){
+    return "Error"
+  } else {
+    return (x * 50) + 6
+  }
+}
