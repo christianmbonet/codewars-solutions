@@ -1660,3 +1660,10 @@ function popElement(arr){
   arr.pop()
   return arr
 }
+
+// High and low
+
+function highAndLow(numbers){
+  const num = numbers.split(" ");
+  return `${Math.max(...num)} ${Math.min(...num)}`
+}
