@@ -1667,3 +1667,12 @@ function highAndLow(numbers){
   const num = numbers.split(" ");
   return `${Math.max(...num)} ${Math.min(...num)}`
 }
+
+// Replace vowels again
+
+function shortcut (string) {
+  return string.replace(/[aeiou]/gi, '')
+//   for (i=0; i < string.length; i++){
+//     if (i == "A" || i == "a" || i == "e" || i == "E" || i == "i" || i == "I" || i == "O" || || i == "o" || || i == "U" || i == "U")
+//   }
+}
