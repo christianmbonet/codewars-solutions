@@ -1676,3 +1676,10 @@ function shortcut (string) {
 //     if (i == "A" || i == "a" || i == "e" || i == "E" || i == "i" || i == "I" || i == "O" || || i == "o" || || i == "U" || i == "U")
 //   }
 }
+
+// create js function
+
+function helloWorld(){
+  const str = 'Hello World!'
+  console.log(str)
+  }
