@@ -1719,3 +1719,10 @@ function preFizz(n) {
     ans.push(i)
   } return ans
 }
+
+// Return 5 without numbers
+
+function unusualFive() {
+  let arr = ["cat", "dog", "rat", "horse", "dolphin"]
+  return arr.length;
+}
