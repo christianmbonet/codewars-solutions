@@ -1726,3 +1726,9 @@ function unusualFive() {
   let arr = ["cat", "dog", "rat", "horse", "dolphin"]
   return arr.length;
 }
+
+// Number to binary
+
+function toBinary(n){
+  return Number(n.toString(2));
+}
