@@ -1732,3 +1732,10 @@ function unusualFive() {
 function toBinary(n){
   return Number(n.toString(2));
 }
+
+// Sum of two lowest numbers
+
+function sumTwoSmallestNumbers(numbers) {  
+  let [a, b] = numbers.sort((a, b) => a - b)
+  return a + b
+}
