@@ -1739,3 +1739,20 @@ function sumTwoSmallestNumbers(numbers) {
   let [a, b] = numbers.sort((a, b) => a - b)
   return a + b
 }
+
+// Twice as old (repeat/different way)
+
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+  let double = dadYearsOld - sonYearsOld * 2;
+  if (double < 0){
+    return double * (-1)
+  } else {
+    return double
+  }
+}
+
+// first way
+// function twiceAsOld(dadYearsOld, sonYearsOld) {
+//   let double = dadYearsOld - sonYearsOld * 2;
+//   return double < 0 ? double * (-1) : double;
+// }
