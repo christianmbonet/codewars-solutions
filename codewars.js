@@ -1756,3 +1756,22 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
 //   let double = dadYearsOld - sonYearsOld * 2;
 //   return double < 0 ? double * (-1) : double;
 // }
+
+// Complimentary DNA
+
+function DNAStrand(dna){
+  let str = '';
+  for (i=0; i < dna.length; i++) {
+     if (dna[i] == 'A'){
+      str = str + "T"
+    } else if (dna[i] == 'T'){
+      str = str + "A"
+    } else if (dna[i] == 'G'){
+      str = str + "C"
+    } else if (dna[i] == 'C'){
+      str = str + "G"
+    }
+  }
+  return str
+  }
+  
