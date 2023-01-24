@@ -1774,4 +1774,11 @@ function DNAStrand(dna){
   }
   return str
   }
-  
+
+// Add length
+
+function addLength(str) {
+  let newStr = str.split(" ").map((e) => `${e} ${e.length}`)
+  return newStr
+  }
+
