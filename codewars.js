@@ -1791,5 +1791,14 @@ function addLength(str) {
     } return arr[nbPetals - 1]
   //   return ["not at all", "I love you", "a little", "a lot", "passionately", "madly"][nbPetals % 6]
   }
-  
+
+// Alan Partridge II
+
+function apple(x){
+  if (x**2 > 1000){
+    return "It's hotter than the sun!!"
+  } else {
+    return "Help yourself to a honeycomb Yorkie for the glovebox."
+  }
+}
 
