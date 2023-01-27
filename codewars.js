@@ -1802,3 +1802,11 @@ function apple(x){
   }
 }
 
+// simple fun reverse letter
+
+function reverseLetter(str) {
+  return str.replace(/[^a-z]/gi,'').split('').reverse().join(''); 
+ }
+
+ // still not fully understanding regex
+
