@@ -1810,3 +1810,13 @@ function reverseLetter(str) {
 
  // still not fully understanding regex
 
+// Plural
+
+function plural(n) {
+  if (n == 1){
+    return false
+  } else {
+    return true
+  }
+}
+
