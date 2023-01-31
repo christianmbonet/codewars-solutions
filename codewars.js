@@ -1820,3 +1820,9 @@ function plural(n) {
   }
 }
 
+// Grasshopper syntax
+
+function main (verb, noun){
+  return verb + noun
+}
+
