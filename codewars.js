@@ -1835,3 +1835,9 @@ function powersOfTwo(n){
   }
   return arr
 }
+
+// Ball type
+
+var Ball = function(ballType) {
+  this.ballType = ballType || "regular"
+};
