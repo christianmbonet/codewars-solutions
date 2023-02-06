@@ -1851,3 +1851,9 @@ function chromosomeCheck(sperm) {
     return `Congratulations! You're going to have a daughter.`
   }
 }
+
+// uppercase?
+
+String.prototype.isUpperCase = function() {
+  return this.toString() === this.toUpperCase()
+}
