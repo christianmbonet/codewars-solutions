@@ -1857,3 +1857,11 @@ function chromosomeCheck(sperm) {
 String.prototype.isUpperCase = function() {
   return this.toString() === this.toUpperCase()
 }
+
+// Abbreviate names
+
+function abbrevName(name){
+  return name.split(' ')
+  .map((thing) => thing[0].toUpperCase())
+  .join('.')
+}
