@@ -1871,3 +1871,13 @@ function abbrevName(name){
 function solution(str){
   return str.split("").reverse().join("")
 } 
+
+// Whats between
+
+function between(a, b) {
+  let between = [];
+  for(let i = a; i <= b; i++){
+   between.push(i);
+}
+  return between
+}
