@@ -1881,3 +1881,9 @@ function between(a, b) {
 }
   return between
 }
+
+// Sentence smash
+
+function smash (words) {
+  return words.join(' ')
+};
