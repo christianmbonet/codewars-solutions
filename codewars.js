@@ -1887,3 +1887,16 @@ function between(a, b) {
 function smash (words) {
   return words.join(' ')
 };
+
+// Two to one
+
+function longest(s1, s2) {
+  let a = [... new Set(s1.split(""))];
+  let b = [... new Set(s2.split(""))];
+  for (let i=0; i<b.length; i++){
+  	a.push(b[i]);
+  }
+  let combo = [... new Set(a)];
+  let final = combo.sort().join("");
+  return final;
+}
