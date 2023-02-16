@@ -1900,3 +1900,13 @@ function longest(s1, s2) {
   let final = combo.sort().join("");
   return final;
 }
+
+// Lario and Muigi
+
+function pipeFix(numbers){
+  let nums = [];
+  for (i=numbers[0]; i <= numbers[numbers.length - 1]; i++){
+    nums.push(i)
+  }
+  return nums
+}
