@@ -1910,3 +1910,10 @@ function pipeFix(numbers){
   }
   return nums
 }
+
+// Basic data types - objects
+
+function animal(obj){
+  return `This ${obj.color} ${obj.name} has ${obj.legs} legs.`
+}
+
