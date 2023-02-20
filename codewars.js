@@ -1932,3 +1932,12 @@ function getSum( a,b )
     }
   return count
   }
+
+  // Beginner sum of three numbers correct
+
+  function getSum( a,b )
+{
+  let min = Math.min(a,b)
+  let max = Math.max(a,b)
+  return (max - min + 1) * (max + min) / 2
+}
