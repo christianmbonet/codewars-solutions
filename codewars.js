@@ -1917,3 +1917,18 @@ function animal(obj){
   return `This ${obj.color} ${obj.name} has ${obj.legs} legs.`
 }
 
+// Sum of three numbers
+
+function getSum( a,b )
+{
+  let count = 0
+  if (a === b){
+    return a
+  } else if ( a < b ){
+    for (count = 0; a <= b; a++){
+      count += a}
+    } else if ( b < a){
+      count += b
+    }
+  return count
+  }
