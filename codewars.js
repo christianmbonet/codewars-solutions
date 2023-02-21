@@ -1941,3 +1941,15 @@ function getSum( a,b )
   let max = Math.max(a,b)
   return (max - min + 1) * (max + min) / 2
 }
+
+// Factorial
+
+function factorial(n){
+  if (n < 0) 
+        return -1;
+  else if (n == 0) 
+      return 1;
+  else {
+      return (n * factorial(n - 1));
+  }
+}
