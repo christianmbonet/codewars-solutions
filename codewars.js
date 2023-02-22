@@ -1953,3 +1953,14 @@ function factorial(n){
       return (n * factorial(n - 1));
   }
 }
+
+// Index of capital letters
+
+var capitals = function (word) {
+	let ind = [];
+  for (i=0; i < word.length; i++){
+    if (word[i] == word[i].toUpperCase()){
+      ind.push(i)
+    }
+  } return ind
+};
