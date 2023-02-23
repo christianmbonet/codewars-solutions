@@ -1964,3 +1964,29 @@ var capitals = function (word) {
     }
   } return ind
 };
+
+// L1 Bartender, Drinks
+
+// My answer - wrong
+
+function getDrinkByProfession(param){
+  let peop = param.toLowerCase;
+  if (peop == "jabroni"){
+    return "Patron Tequila"
+  } else if (peop == "school counselor"){
+    return "Anything with Alcohol"
+  } else if (peop == "programmer"){
+    return "Hipster Craft Beer"
+  } else if (peop == "bike gang member"){
+    return "Moonshine"
+  } else if (peop == "politician"){
+    return "Your tax dollars"
+  } else if (peop == "rapper"){
+    return "Cristal"
+  } else {
+    return "Beer"
+  }
+}
+
+// Why?
+
