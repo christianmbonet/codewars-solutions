@@ -1970,7 +1970,7 @@ var capitals = function (word) {
 // My answer - wrong
 
 function getDrinkByProfession(param){
-  let peop = param.toLowerCase;
+  let peop = param.toLowerCase();
   if (peop == "jabroni"){
     return "Patron Tequila"
   } else if (peop == "school counselor"){
