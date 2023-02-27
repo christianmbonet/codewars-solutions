@@ -1999,3 +1999,13 @@ const sorted = s.sort();
     .join("***"); 
 }
 
+// Sum of differences
+
+function sumOfDifferences(arr) {
+  let array = arr.sort((a,b) => b - a);
+  let sum = 0;
+  for (let i = 0; i < array.length - 1; i++) {
+    sum += array[i] - array[i + 1];
+} return sum
+}
+
