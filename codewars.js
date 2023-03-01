@@ -2015,3 +2015,9 @@ var findAverage = function (nums) {
   return (nums.reduce((a, b) => a + b, 0)/nums.length)
 }
 
+// Holiday VIII
+
+function dutyFree(normPrice, discount, hol){
+  return Math.floor(hol / normPrice / discount * 100)
+ }
+
