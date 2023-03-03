@@ -2039,3 +2039,25 @@ function dutyFree(normPrice, discount, hol){
    } return score
  }
 
+ // Javascript array - incorrect
+
+ function getEvenNumbers(numbersArray){
+  numbersArray.filter(val => {
+    if(value%2==0)
+      return val
+  })
+}
+
+// Javascript array - incorrect
+
+function getEvenNumbers(numbersArray){
+  let newArr = [];
+  for (i=0; i < numbersArray.length; i++){
+    if (numbersArray[i] % 2 == 0){
+      newArr.push(i)
+    } else if (numbersArray.length == 0){
+      newArr = []
+    }
+  } return newArr
+}
+
