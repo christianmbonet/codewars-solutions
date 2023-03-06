@@ -2061,3 +2061,9 @@ function getEvenNumbers(numbersArray){
   } return newArr
 }
 
+// Enumerable magic
+
+function include(arr, item){
+  return arr.includes(item)
+}
+
