@@ -2067,3 +2067,8 @@ function include(arr, item){
   return arr.includes(item)
 }
 
+// Grasshopper - summation
+
+var summation = function (num) {
+  return num * (num + 1) / 2
+}
