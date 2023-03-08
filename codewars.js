@@ -2072,3 +2072,21 @@ function include(arr, item){
 var summation = function (num) {
   return num * (num + 1) / 2
 }
+
+// Predict your age - this feels like bad code but it works
+
+function predictAge(age1,age2,age3,age4,age5,age6,age7,age8){
+  let res = []
+  res.push(age1 * age1)
+  res.push(age2 * age2)
+  res.push(age3 * age3)
+  res.push(age4 * age4)
+  res.push(age5 * age5)
+  res.push(age6 * age6)
+  res.push(age7 * age7)
+  res.push(age8 * age8)
+  let next = res.reduce((a, b) => a + b, 0)
+  let follow = Math.sqrt(next)
+  let fin = follow/2
+  return Math.floor(fin)
+}
