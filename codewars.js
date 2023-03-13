@@ -2090,3 +2090,19 @@ function predictAge(age1,age2,age3,age4,age5,age6,age7,age8){
   let fin = follow/2
   return Math.floor(fin)
 }
+
+// Find the remainder
+
+function remainder(n, m){
+  if (m == 0){
+    return NaN
+  } else if (n == 0){
+    return NaN
+  }
+  else if (m > n){
+    return m % n
+  } else if (n > m){
+    return n % m
+  }
+  
+}
