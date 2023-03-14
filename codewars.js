@@ -2106,3 +2106,19 @@ function remainder(n, m){
   }
   
 }
+
+// String increment - wrong and bad code 
+
+function incrementString (strng) {
+  for (i=0; i < strng.length; i++){
+    if (strng.length-1 == 1){
+      return `${strng}+1`
+    } else {
+      let newStr = strng.slice[strng.length - 1]
+      let arr = strng.split('');
+      let add = strng[strng.length - 1];
+      let newAdd = parseInt(add) + 1
+      return newStr.concat(newAdd)
+    }
+  }
+}
