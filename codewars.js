@@ -2177,3 +2177,9 @@ function xor(a, b) {
     return false
   }
 }
+
+// Beginner series cockroach - repeat
+
+function cockroachSpeed(s) {
+  return Math.floor(s * 27.78);
+ }
