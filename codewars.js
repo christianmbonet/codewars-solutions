@@ -2183,3 +2183,9 @@ function xor(a, b) {
 function cockroachSpeed(s) {
   return Math.floor(s * 27.78);
  }
+
+// Unique in Order
+
+var uniqueInOrder=function(iterable){
+  return [...iterable].filter((element, index) => element != iterable[index + 1])
+}
