@@ -2206,3 +2206,18 @@ function findOdd(A) {
     }
   }
 }
+
+// Row weights
+
+function rowWeights(array){
+  var odd = 0
+  var even = 0
+    for(var i=0;i<array.length;i++){
+      if(i % 2 == 0){
+      odd += array[i]
+      } else {
+      even += array[i]
+      }
+    }
+    return [odd, even]
+}
