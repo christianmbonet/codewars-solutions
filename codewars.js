@@ -2221,3 +2221,9 @@ function rowWeights(array){
     }
     return [odd, even]
 }
+
+// Printing array
+
+function printArray(array){
+  return array.join()
+}
