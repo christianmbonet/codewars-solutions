@@ -2227,3 +2227,9 @@ function rowWeights(array){
 function printArray(array){
   return array.join()
 }
+
+// Flatten and sort
+
+function flattenAndSort(array) {
+  return array.flat().sort((a, b) => a - b);
+}
