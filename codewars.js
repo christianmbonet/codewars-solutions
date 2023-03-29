@@ -2233,3 +2233,10 @@ function printArray(array){
 function flattenAndSort(array) {
   return array.flat().sort((a, b) => a - b);
 }
+
+// Find the position 
+
+function position(letter){
+  let alpha = "0abcdefghijklmnopqrstuvwxyz"
+   return `Position of alphabet: ${alpha.indexOf(letter)}`
+ }
