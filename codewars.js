@@ -2246,3 +2246,16 @@ function position(letter){
  function oddOrEven(array) {
   return array.reduce((a, b) => a + b, 0) % 2 ? "odd" : "even"
  }
+
+ // Twice as old - repeat
+
+ function twiceAsOld(dadYearsOld, sonYearsOld) {
+  let double = dadYearsOld - sonYearsOld * 2;
+  if (double < 0){
+    return double * (-1)
+  } else {
+    return double
+  }
+}
+
+
