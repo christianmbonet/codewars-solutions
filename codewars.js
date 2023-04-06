@@ -2316,3 +2316,13 @@ calculator = (a,b,sign) => {
   && typeof b == 'number' 
   && ['+', '-', '/', '*'].includes(sign) ? sign == '+' ? a + b : sign == '-' ? a - b : sign == '*' ? a * b : a / b : 'unknown value'
 }
+
+// Will you make it?
+
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+  if (distanceToPump <= (fuelLeft * mpg)){
+    return true
+  } else {
+    return false
+  }
+};
