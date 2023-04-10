@@ -2332,3 +2332,9 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 function angle(n) {
   return (n - 2) * 180
 }
+
+// No loops - you only ned one
+
+function check(a,x){
+  return a.includes(x)
+};
