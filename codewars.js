@@ -2338,3 +2338,9 @@ function angle(n) {
 function check(a,x){
   return a.includes(x)
 };
+
+// Two decimal places
+
+function twoDecimalPlaces(n) {
+  return +n.toFixed(2)
+}
