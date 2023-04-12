@@ -2344,3 +2344,9 @@ function check(a,x){
 function twoDecimalPlaces(n) {
   return +n.toFixed(2)
 }
+
+// The highest profit wins
+
+function minMax(arr){
+  return [Math.min(...arr), Math.max(...arr)]
+}
