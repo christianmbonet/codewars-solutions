@@ -2354,5 +2354,5 @@ function minMax(arr){
 // Price of mangoes
 
 function mango(quantity, price){
-  return Math.floor(price * (quantity - quantity / 3))
+  return price * (quantity - Math.floor(quantity / 3))
 }
