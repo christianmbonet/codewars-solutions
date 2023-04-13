@@ -2350,3 +2350,9 @@ function twoDecimalPlaces(n) {
 function minMax(arr){
   return [Math.min(...arr), Math.max(...arr)]
 }
+
+// Price of mangoes
+
+function mango(quantity, price){
+  return Math.floor(price * (quantity - quantity / 3))
+}
