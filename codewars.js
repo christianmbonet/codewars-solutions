@@ -2356,3 +2356,9 @@ function minMax(arr){
 function mango(quantity, price){
   return price * (quantity - Math.floor(quantity / 3))
 }
+
+// Friend or foe - repeat
+
+function friend(friends){
+  return friends.filter(i => i.length === 4);
+}
