@@ -2362,3 +2362,10 @@ function mango(quantity, price){
 function friend(friends){
   return friends.filter(i => i.length === 4);
 }
+
+// Grasshopper variable assignment
+
+let a = "dev"
+let b = "Lab"
+
+let name = `${a}${b}`
