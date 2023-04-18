@@ -2369,3 +2369,9 @@ let a = "dev"
 let b = "Lab"
 
 let name = `${a}${b}`
+
+// Reverse string - repeat
+
+function solution(str){
+  return str.split("").reverse().join("")
+} 
