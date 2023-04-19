@@ -2375,3 +2375,9 @@ let name = `${a}${b}`
 function solution(str){
   return str.split("").reverse().join("")
 } 
+
+// Take first N elements
+
+function take(arr, n) {
+  return arr.slice(0,n)
+}
