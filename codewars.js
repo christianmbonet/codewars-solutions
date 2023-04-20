@@ -2381,3 +2381,10 @@ function solution(str){
 function take(arr, n) {
   return arr.slice(0,n)
 }
+
+// USD to CNY
+
+function usdcny(usd) {
+  let conv = (usd * 6.75).toFixed(2)
+  return `${conv} Chinese Yuan`
+}
