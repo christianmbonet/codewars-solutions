@@ -2389,7 +2389,7 @@ function usdcny(usd) {
   return `${conv} Chinese Yuan`
 }
 
-// Remainder - repeat
+// Remainder - repeat - wrong
 
 function remainder(n, m){
   if (m == 0){
