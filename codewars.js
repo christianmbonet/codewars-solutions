@@ -2388,3 +2388,18 @@ function usdcny(usd) {
   let conv = (usd * 6.75).toFixed(2)
   return `${conv} Chinese Yuan`
 }
+
+// Remainder - repeat
+
+function remainder(n, m){
+  if (m == 0){
+    return NaN
+  } else if (n == 0){
+    return NaN
+  }
+  else if (m > n){
+    return m % n
+  } else if (n > m){
+    return n % m
+  }
+}
