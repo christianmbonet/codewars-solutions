@@ -2403,3 +2403,15 @@ function remainder(n, m){
     return n % m
   }
 }
+
+// Merge two into one
+
+function mergeArrays(arr1, arr2) {
+  let arr = arr1.concat(arr2).sort((a, b) => a - b);
+  let fin = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] !== arr[i + 1]) {
+      fin.push(arr[i]);
+    }
+  } return fin
+}
