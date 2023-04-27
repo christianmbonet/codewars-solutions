@@ -2421,3 +2421,9 @@ function mergeArrays(arr1, arr2) {
 function sayHello( name, city, state ) {
   return `Hello, ${name.join(' ')}! Welcome to ${city}, ${state}!`
 }
+
+// Remove duplicates
+
+function distinct(a) {
+  return [...new Set(a)];
+}
