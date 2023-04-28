@@ -2437,5 +2437,5 @@ function roundToNext5(n){
 // Round next multiple of 5 - right
 
 function roundToNext5(n){
-  return Math.max(n * 5)
-}
+  return Math.ceil(n/5)*5
+ }
