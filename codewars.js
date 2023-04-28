@@ -2427,3 +2427,15 @@ function sayHello( name, city, state ) {
 function distinct(a) {
   return [...new Set(a)];
 }
+
+// Round next multiple of 5 - wrong
+
+function roundToNext5(n){
+  return Math.max(n * 5)
+}
+
+// Round next multiple of 5 - right
+
+function roundToNext5(n){
+  return Math.max(n * 5)
+}
