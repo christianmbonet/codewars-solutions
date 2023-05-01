@@ -2439,3 +2439,13 @@ function roundToNext5(n){
 function roundToNext5(n){
   return Math.ceil(n/5)*5
  }
+
+ // Reversed sequence - repeat
+
+ const reverseSeq = n => {
+  let arr = [];
+  for (i=n; i > 0; i--){
+    arr.push(i)
+  }
+  return arr
+};
