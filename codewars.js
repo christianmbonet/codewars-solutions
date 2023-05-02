@@ -2449,3 +2449,9 @@ function roundToNext5(n){
   }
   return arr
 };
+
+// Form the minimum
+
+function minValue(values){
+  return +[...new Set(values)].sort().join('')
+}
