@@ -2481,3 +2481,14 @@ function exponent(a,b){
 function subt(a,b){
   return a - b
 }
+
+// Return suits
+
+function defineSuit(card) {
+  let suit = card.substr(-1);
+   switch(suit){
+      case '♣': return 'clubs';
+      case '♦': return 'diamonds';
+      case '♥': return 'hearts';
+      default: return 'spades';
+   }}
