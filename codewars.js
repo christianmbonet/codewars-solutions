@@ -2498,3 +2498,9 @@ function defineSuit(card) {
 function _if(bool, func1, func2) {
   bool ? func1() : func2()
 }
+
+// Is the string uppercase
+
+String.prototype.isUpperCase = function() {
+  return this.toString() === this.toUpperCase()
+}
