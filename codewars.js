@@ -2504,3 +2504,9 @@ function _if(bool, func1, func2) {
 String.prototype.isUpperCase = function() {
   return this.toString() === this.toUpperCase()
 }
+
+// Reduce but grow
+
+function grow(x){
+  return x.reduce((a, b)=> a * b,1)
+}
