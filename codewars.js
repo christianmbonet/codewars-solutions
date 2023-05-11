@@ -2510,3 +2510,14 @@ String.prototype.isUpperCase = function() {
 function grow(x){
   return x.reduce((a, b)=> a * b,1)
 }
+
+// Even numbers in an array
+
+function evenNumbers(array, number) {
+  let arr = [];
+  for (i=0; i < array.length; i++){
+    if (array[i] % 2 == 0){
+      arr.push(array[i])
+    }
+  } return arr.slice(-number)
+}
