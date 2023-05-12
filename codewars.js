@@ -2521,3 +2521,14 @@ function evenNumbers(array, number) {
     }
   } return arr.slice(-number)
 }
+
+// Odd or even - repeat
+
+function evenNumbers(array, number) {
+  let arr = [];
+  for (i=0; i < array.length; i++){
+    if (array[i] % 2 == 0){
+      arr.push(array[i])
+    }
+  } return arr.slice(-number)
+}
