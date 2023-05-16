@@ -2538,3 +2538,15 @@ function evenNumbers(array, number) {
 var greet = function(name) {
   return `Hello ${(name.slice(0,1).toUpperCase())+(name.slice(1).toLowerCase())}!`
 };
+
+// Find vowels
+
+function vowelIndices(word){
+  let a = word.split('');
+  let arr = [];
+  for (i=0; i < word.length; i++){
+    if (/[aeuoiy]/gi.test(a[i])){
+      arr.push(i + 1)
+    }
+  } return arr
+}
