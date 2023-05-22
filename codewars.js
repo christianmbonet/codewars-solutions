@@ -2579,3 +2579,7 @@ function sumMix(x){
   } 
 } return sum
 }
+
+// Kata example twist
+
+var websites = new Array(1000).fill(`codewars`)
