@@ -2583,3 +2583,12 @@ function sumMix(x){
 // Kata example twist
 
 var websites = new Array(1000).fill(`codewars`)
+
+// Sum without highest and lowest number
+
+function sumArray(array) {
+  if (!array) return 0;
+  if (array.length < 3) return 0;
+  const sorted = array.sort((a,b) => a- b)
+  return sorted.slice(1, -1).reduce((total, current) => total + current)
+}
