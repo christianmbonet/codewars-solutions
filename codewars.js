@@ -2592,3 +2592,14 @@ function sumArray(array) {
   const sorted = array.sort((a,b) => a- b)
   return sorted.slice(1, -1).reduce((total, current) => total + current)
 }
+
+// Remove exclamations but add one to the end
+
+function remove (string) {
+  let final = [];
+  for (i=0; i < string.length; i++){
+    if (string[i] !== '!'){
+      final.push(string[i])
+    }
+  } return final.join('') + '!'
+}
