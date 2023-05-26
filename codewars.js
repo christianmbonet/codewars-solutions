@@ -2603,3 +2603,14 @@ function remove (string) {
     }
   } return final.join('') + '!'
 }
+
+// No oddities here
+
+function noOdds( values ){
+  let final = [];
+  for (i=0; i < values.length; i++){
+    if (values[i]%2==0){
+      final.push(values[i])
+    }
+  } return final
+}
