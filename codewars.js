@@ -2615,7 +2615,7 @@ function noOdds( values ){
   } return final
 }
 
-// Sorted? yes? no? how?
+// Sorted? yes? no? if so, how?
 
 function isSortedAndHow(array) {
   return array.every((x,i)=>i==0||array[i]>=array[i-1])?'yes, ascending':
