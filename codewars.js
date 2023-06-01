@@ -2627,3 +2627,9 @@ function isSortedAndHow(array) {
 const combineNames = (first, lastName) => {
   return `${first} ${lastName}`
   }
+
+// No zeros for heroes
+
+function noBoringZeros(n) {
+  return Number(n.toString().replace(/0+$/, ''))
+  }
