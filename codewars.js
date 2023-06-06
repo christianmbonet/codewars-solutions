@@ -2652,3 +2652,9 @@ function solve(s){
   let down=s.split('').filter(v=>v.match(/[a-z]/)).length
   return down>=up?s.toLowerCase():s.toUpperCase();
 }
+
+// Regex username validator
+
+function validateUsr(username) {
+  return /^[a-z\d_]{4,16}$/.test(username)
+ }
