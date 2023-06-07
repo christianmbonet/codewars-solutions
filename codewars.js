@@ -2664,3 +2664,10 @@ function validateUsr(username) {
  function spEng(sentence){
   return sentence.includes('english')
   }
+
+// Correction - do you speak english
+
+function spEng(sentence){
+  let sen = sentence.toLowerCase();
+return sen.includes('english')
+}
