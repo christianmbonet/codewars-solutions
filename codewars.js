@@ -2669,5 +2669,5 @@ function validateUsr(username) {
 
 function spEng(sentence){
   let sen = sentence.toLowerCase();
-return sen.includes('english')
+  return sen.includes('english')
 }
