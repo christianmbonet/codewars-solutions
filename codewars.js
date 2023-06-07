@@ -2658,3 +2658,9 @@ function solve(s){
 function validateUsr(username) {
   return /^[a-z\d_]{4,16}$/.test(username)
  }
+
+ // Do you speak english
+
+ function spEng(sentence){
+  return sentence.includes('english')
+  }
