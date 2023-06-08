@@ -2671,3 +2671,9 @@ function spEng(sentence){
   let sen = sentence.toLowerCase();
   return sen.includes('english')
 }
+
+// Remove first and last
+
+function array(string) {
+  return string.split(",").slice(1,-1).join(" ") || null
+}
