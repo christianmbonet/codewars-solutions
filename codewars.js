@@ -2677,3 +2677,9 @@ function spEng(sentence){
 function array(string) {
   return string.split(",").slice(1,-1).join(" ") || null
 }
+
+// If function - may be repeat
+
+function _if(bool, func1, func2) {
+  bool ? func1() : func2()
+}
