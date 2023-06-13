@@ -2683,3 +2683,13 @@ function array(string) {
 function _if(bool, func1, func2) {
   bool ? func1() : func2()
 }
+
+// Count by X
+
+function countBy(x, n) {
+  let final = [];
+  for(let i = 1; i <= n; i++){
+  final.push(i * x)
+}
+  return final
+}
