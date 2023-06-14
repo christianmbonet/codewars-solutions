@@ -2693,3 +2693,9 @@ function countBy(x, n) {
 }
   return final
 }
+
+// Is there a vowel
+
+function isVow(a){
+  return a.map( x => /[aeiou]/.test(String.fromCharCode(x)) ? String.fromCharCode(x) : x)
+}
