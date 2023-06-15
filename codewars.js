@@ -2699,3 +2699,14 @@ function countBy(x, n) {
 function isVow(a){
   return a.map( x => /[aeiou]/.test(String.fromCharCode(x)) ? String.fromCharCode(x) : x)
 }
+
+// String cleaning
+
+function stringClean(s){
+  let string = []
+  for (i=0; i < s.length; i++){
+    if (isNaN(s[i]) || s[i] === ' ' ){
+      string.push(s[i])
+    } 
+  } return string.join('')
+}
