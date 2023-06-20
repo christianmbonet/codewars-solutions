@@ -2716,3 +2716,9 @@ function stringClean(s){
 function contamination(text, char){
   return char.repeat(text.length)
 }
+
+// Beginner series #4: Cockroach - repeat
+
+function cockroachSpeed(s) {
+  return Math.floor(s * 27.78);
+ }
