@@ -2722,3 +2722,12 @@ function contamination(text, char){
 function cockroachSpeed(s) {
   return Math.floor(s * 27.78);
  }
+
+// Pillars
+
+function pillars(numPill, dist, width) {
+  if(numPill < 2){
+   return 0;
+   }
+   return numPill * ((dist * 100) + width) - (width * 2) - (dist * 100);
+}
