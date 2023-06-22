@@ -2731,3 +2731,9 @@ function pillars(numPill, dist, width) {
    }
    return numPill * ((dist * 100) + width) - (width * 2) - (dist * 100);
 }
+
+// Switcharoo
+
+function switcheroo(x){
+  return x.replace(/[ab]/g,x=>x=="a"?"b":"a")
+ }
