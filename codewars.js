@@ -2743,3 +2743,12 @@ function switcheroo(x){
 function findLongest(array){
   return array.reduce((a, b) => (`${b}`.length > `${a}`.length ? b : a))
 }
+
+// Find the first non consecutive number
+
+function firstNonConsecutive (arr) {
+  for (let i = 1; i < arr.length; i++) {
+        if (arr[i - 1] + 1 !== arr[i]) return arr[i];
+    }
+    return null;
+}
