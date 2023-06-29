@@ -2761,3 +2761,19 @@ function adjacentElementsProduct(array) {
     ans.push(array[i] * array[i + 1])
   } return Math.max(...ans)
 }
+
+// Remainder - repeat
+
+function remainder(n, m){
+  if (m == 0){
+    return NaN
+  } else if (n == 0){
+    return NaN
+  }
+  else if (m > n){
+    return m % n
+  } else if (n > m){
+    return n % m
+  }
+}
+
