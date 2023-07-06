@@ -2804,3 +2804,9 @@ Sleigh.prototype.authenticate = function(name, password) {
   }
 };
 
+// Number from string
+
+function getNumberFromString(s) {
+  return +(s.replace(/\D/g, ''))
+}
+
