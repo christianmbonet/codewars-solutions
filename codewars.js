@@ -2810,3 +2810,15 @@ function getNumberFromString(s) {
   return +(s.replace(/\D/g, ''))
 }
 
+// Divide and conquer
+
+function divCon(x){
+  let total = 0
+  for (i=0; i < x.length; i++){
+    if (typeof x[i] == 'number'){
+      total += x[i]
+    } else {
+      total -= x[i]
+    }
+  } return total
+}
