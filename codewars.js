@@ -2828,3 +2828,31 @@ function divCon(x){
 function duckDuckGoose(players, goose) {
   return players[(goose - 1)%players.length].name
  }
+
+// Check same case - my answer
+
+function sameCase(a, b){
+  if (!a.match(/[A-z]/g) || !b.match(/[A-z]/g)){
+    return -1
+  } else if (a === b){
+    return 1
+  } else {
+    return 0
+  }
+}
+
+// Check same case - answer - slow
+
+function sameCase(a, b){
+  if (!a.match(/[A-z]/g) || !b.match(/[A-z]/g)){
+    return -1
+  } else if (
+    (a.match(/^[A-Z]$/) && b.match(/^[A-Z]$/)) ||
+    (a.match(/^[a-z]$/) && b.match(/^[a-z]$/))){
+    return 1
+  } else {
+    return 0
+  }
+}
+
+
