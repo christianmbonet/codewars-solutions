@@ -2841,7 +2841,7 @@ function sameCase(a, b){
   }
 }
 
-// Check same case - answer - slow
+// Check same case - answer - slow - still not fully correct
 
 function sameCase(a, b){
   if (!a.match(/[A-z]/g) || !b.match(/[A-z]/g)){
