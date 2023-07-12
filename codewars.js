@@ -2855,4 +2855,10 @@ function sameCase(a, b){
   }
 }
 
+// Boolean 
+
+function trueOrFalse(val){
+  return Boolean(val) ? 'true' : 'false';
+}
+
 
