@@ -2861,4 +2861,11 @@ function trueOrFalse(val){
   return Boolean(val) ? 'true' : 'false';
 }
 
+// Reverse words in string
+
+function reverse(string){
+  let newString = string.split(' ')
+  return newString.reverse().join(' ')
+}
+
 
