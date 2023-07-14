@@ -2868,4 +2868,10 @@ function reverse(string){
   return newString.reverse().join(' ')
 }
 
+// Sort the gift code 
+
+function sortGiftCode(code){
+  return code.split('').sort().join('')
+}
+
 
