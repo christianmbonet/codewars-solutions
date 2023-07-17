@@ -2874,4 +2874,9 @@ function sortGiftCode(code){
   return code.split('').sort().join('')
 }
 
+// Is it a cube
+
+cubeChecker = (volume, side) =>
+  volume /side ** 2 == side && side > 0
+
 
