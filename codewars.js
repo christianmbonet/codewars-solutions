@@ -2879,4 +2879,10 @@ function sortGiftCode(code){
 cubeChecker = (volume, side) =>
   volume /side ** 2 == side && side > 0
 
+// Abbreviate two word name - repeat
 
+function abbrevName(name){
+  return name.split(' ')
+  .map((thing) => thing[0].toUpperCase())
+  .join('.')
+}
