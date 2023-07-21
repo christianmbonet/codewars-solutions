@@ -2910,3 +2910,8 @@ function calculateTip(amount, rating) {
   return("Rating not recognised");
   } 
   }
+
+// Make a square
+
+let generateShape = (integer) =>
+  ('+'.repeat(integer) + '\n').repeat(integer).trim()
