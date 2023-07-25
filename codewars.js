@@ -2915,3 +2915,11 @@ function calculateTip(amount, rating) {
 
 let generateShape = (integer) =>
   ('+'.repeat(integer) + '\n').repeat(integer).trim()
+
+// Regex count lowercase
+
+function lowercaseCount(str){
+  return str.split("")
+    .filter((char) => char.match(/[a-z]/))
+    .length
+}
