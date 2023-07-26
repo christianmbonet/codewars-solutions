@@ -2923,3 +2923,16 @@ function lowercaseCount(str){
     .filter((char) => char.match(/[a-z]/))
     .length
 }
+
+// Is triangle
+
+function isTriangle(a,b,c){
+  if ( a === 0 || b === 0 || c === 0){
+    return false;
+  } 
+  else if (a + b < c || a + c < b || b + c < a || b + a < c){
+    return false;
+  } else {
+    return true;
+  }
+}
