@@ -2942,3 +2942,10 @@ function isTriangle(a,b,c){
 function isTriangle(a,b,c){
   return (a + b > c) && (a + c > b) && (b + c > a)
 }
+
+// Alphabet location
+
+function solve(arr){  
+  let alpha = "abcdefghijklmnopqrstuvwxyz";
+    return arr.map(x => x.toLowerCase().split('').filter((y,i) => i==alpha.indexOf(y)).length)
+  };
