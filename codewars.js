@@ -2949,3 +2949,16 @@ function solve(arr){
   let alpha = "abcdefghijklmnopqrstuvwxyz";
     return arr.map(x => x.toLowerCase().split('').filter((y,i) => i==alpha.indexOf(y)).length)
   };
+
+// Meeting 
+
+function meeting(s) {
+  let newSort = s.toUpperCase();
+  newSort = newSort.split(';');
+  for (i=0; i < newSort.length; i++){
+    newSort[i] = newSort[i].split(':').reverse()
+  }
+  return newSort.sort().reduce((per, name) => {
+    return per += `(${name[0]}, ${name[1]})`
+  }, '')
+}
