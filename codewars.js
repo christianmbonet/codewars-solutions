@@ -2962,3 +2962,9 @@ function meeting(s) {
     return per += `(${name[0]}, ${name[1]})`
   }, '')
 }
+
+// Remove the anchor
+
+function removeUrlAnchor(url){
+  return url.split('#')[0]
+ }
