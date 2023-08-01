@@ -2968,3 +2968,9 @@ function meeting(s) {
 function removeUrlAnchor(url){
   return url.split('#')[0]
  }
+
+// Contamination string #1 - repeat
+
+function contamination(text, char){
+  return char.repeat(text.length)
+}
