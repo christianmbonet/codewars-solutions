@@ -2974,3 +2974,9 @@ function removeUrlAnchor(url){
 function contamination(text, char){
   return char.repeat(text.length)
 }
+
+// Are arrow functions odd
+
+function odds(values){
+  return values.filter(e => e%2);
+}
