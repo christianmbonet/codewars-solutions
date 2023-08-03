@@ -2980,3 +2980,8 @@ function contamination(text, char){
 function odds(values){
   return values.filter(e => e%2);
 }
+// Who ate the last cookie?
+
+function cookie(x){
+  return `Who ate the last cookie? It was ${{string: 'Zach', number: 'Monica'}[typeof x] || 'the dog'}!`
+}
