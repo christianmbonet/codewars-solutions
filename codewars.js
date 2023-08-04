@@ -2985,3 +2985,9 @@ function odds(values){
 function cookie(x){
   return `Who ate the last cookie? It was ${{string: 'Zach', number: 'Monica'}[typeof x] || 'the dog'}!`
 }
+ 
+// ASCII get character from - repeat
+
+function getChar(c){
+  return c.toString().charCodeAt()
+}
