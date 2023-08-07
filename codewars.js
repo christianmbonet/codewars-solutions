@@ -2991,3 +2991,9 @@ function cookie(x){
 function getChar(c){
   return c.toString().charCodeAt()
 }
+
+// REGEX validate pin
+
+function validatePIN (pin) {
+  return /^(\d{4}|\d{6})$/.test(pin)
+}
