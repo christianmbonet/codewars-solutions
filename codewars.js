@@ -2997,3 +2997,9 @@ function getChar(c){
 function validatePIN (pin) {
   return /^(\d{4}|\d{6})$/.test(pin)
 }
+
+// Odd or even - repeat
+
+function oddOrEven(array) {
+  return array.reduce((a, b) => a + b, 0) % 2 ? "odd" : "even"
+ }
