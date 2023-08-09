@@ -3003,3 +3003,18 @@ function validatePIN (pin) {
 function oddOrEven(array) {
   return array.reduce((a, b) => a + b, 0) % 2 ? "odd" : "even"
  }
+
+// Row weights - repeat
+
+function rowWeights(array){
+  var odd = 0
+  var even = 0
+    for(var i=0;i<array.length;i++){
+      if(i % 2 == 0){
+      odd += array[i]
+      } else {
+      even += array[i]
+      }
+    }
+    return [odd, even]
+}
