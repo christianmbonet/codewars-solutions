@@ -3052,3 +3052,9 @@ function uefaEuro2016(teams, scores){
     return `At match ${teams[0]} - ${teams[1]}, teams played draw.`
   }
 }
+
+// REmove all exclamation points from end of sentence
+
+function remove (s) {  
+  return s.replace(/!+$/, "")
+}
