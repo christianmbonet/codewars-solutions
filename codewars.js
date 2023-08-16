@@ -3053,8 +3053,18 @@ function uefaEuro2016(teams, scores){
   }
 }
 
-// REmove all exclamation points from end of sentence
+// Remove all exclamation points from end of sentence
 
 function remove (s) {  
   return s.replace(/!+$/, "")
+}
+
+// Simple beads count
+
+function countRedBeads(n) {
+  if ((n * 2 - 2) < 0){
+    return 0
+  } else {
+    return n * 2 - 2
+  }
 }
