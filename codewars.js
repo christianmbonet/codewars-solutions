@@ -3077,3 +3077,13 @@ function leo(oscar){
   if (oscar < 88) return ('When will you give Leo an Oscar?');
   if (oscar > 88) return ('Leo got one already!');
   }
+
+// Name on billboard
+
+function billboard(name, price = 30){
+  let q=0;
+  for (let i=1;i<=name.length;i++){
+    q+=price
+  }
+  return q
+} 
