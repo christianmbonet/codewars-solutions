@@ -3087,3 +3087,11 @@ function billboard(name, price = 30){
   }
   return q
 } 
+
+// esreveR
+
+reverse = function(array) {
+  return array.reduce(function(a, b) {
+    return [b].concat(a)
+  }, [])
+}
