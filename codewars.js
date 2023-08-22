@@ -3095,3 +3095,8 @@ reverse = function(array) {
     return [b].concat(a)
   }, [])
 }
+
+// Add to array
+
+var websites = [];
+websites.push('codewars')
