@@ -3100,3 +3100,19 @@ reverse = function(array) {
 
 var websites = [];
 websites.push('codewars')
+
+// Find a remainder
+
+function remainder(n, m){
+  if (m == 0){
+    return NaN
+  } else if (n == 0){
+    return NaN
+  }
+  else if (m > n){
+    return m % n
+  } else if (n > m){
+    return n % m
+  }
+  
+}
