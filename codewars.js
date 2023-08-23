@@ -3101,7 +3101,7 @@ reverse = function(array) {
 var websites = [];
 websites.push('codewars')
 
-// Find a remainder
+// Find a remainder - repeat wrong
 
 function remainder(n, m){
   if (m == 0){
@@ -3114,5 +3114,11 @@ function remainder(n, m){
   } else if (n > m){
     return n % m
   }
-  
+
+}
+
+// Find remainder - repeat correct 
+
+function remainder(n, m){
+  return n > m ? n % m : m % n
 }
