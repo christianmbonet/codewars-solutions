@@ -3122,3 +3122,15 @@ function remainder(n, m){
 function remainder(n, m){
   return n > m ? n % m : m % n
 }
+
+// Evaporator 
+
+function evaporator(content, evap_per_day, threshold){ 
+  let result = 0;
+  let percentage = 100;  
+  while (percentage > threshold) {
+    percentage = percentage - percentage * (evap_per_day / 100);
+    result += 1;
+  }
+  return result;
+}
