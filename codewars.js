@@ -3134,3 +3134,9 @@ function evaporator(content, evap_per_day, threshold){
   }
   return result;
 }
+
+// Reversed strings
+
+function solution(str){
+  return str.split("").reverse().join("")
+} 
