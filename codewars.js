@@ -3140,3 +3140,9 @@ function evaporator(content, evap_per_day, threshold){
 function solution(str){
   return str.split("").reverse().join("")
 } 
+
+// Regex basics - is it a digit
+
+String.prototype.digit = function() {
+  return /^\d$/.test(this);
+};
