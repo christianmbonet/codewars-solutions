@@ -3146,3 +3146,9 @@ function solution(str){
 String.prototype.digit = function() {
   return /^\d$/.test(this);
 };
+
+// Most digits repeat
+
+function findLongest(array){
+  return array.reduce((a, b) => (`${b}`.length > `${a}`.length ? b : a))
+}
