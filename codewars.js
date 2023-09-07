@@ -3167,3 +3167,9 @@ function persistence(num) {
   }
   return count
 }
+
+// Remove time
+
+function shortenToDate(longDate) {
+  return longDate.split(',')[0]
+}
