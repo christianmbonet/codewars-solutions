@@ -3173,3 +3173,9 @@ function persistence(num) {
 function shortenToDate(longDate) {
   return longDate.split(',')[0]
 }
+
+// Return type of sum of two aguments
+
+function typeOfSum(a, b) {
+  return typeof(a + b)
+}
