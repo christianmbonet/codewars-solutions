@@ -3183,3 +3183,9 @@ function typeOfSum(a, b) {
 // Template strings
 
 TempleStrings = (obj, feature) => `${obj} are ${feature}`
+
+// Is it a number
+
+function isDigit(s) {
+  return s == parseFloat(s)
+}
