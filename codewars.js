@@ -3179,3 +3179,7 @@ function shortenToDate(longDate) {
 function typeOfSum(a, b) {
   return typeof(a + b)
 }
+
+// Template strings
+
+TempleStrings = (obj, feature) => `${obj} are ${feature}`
