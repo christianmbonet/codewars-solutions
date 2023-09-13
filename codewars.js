@@ -3189,3 +3189,9 @@ TempleStrings = (obj, feature) => `${obj} are ${feature}`
 function isDigit(s) {
   return s == parseFloat(s)
 }
+
+// Sum of minimums
+
+function sumOfMinimums(arr) {
+  return arr.reduce((acc, curr) => acc + Math.min(...curr), 0)
+}
