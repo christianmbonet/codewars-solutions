@@ -3195,3 +3195,9 @@ function isDigit(s) {
 function sumOfMinimums(arr) {
   return arr.reduce((acc, curr) => acc + Math.min(...curr), 0)
 }
+
+// Largest pair sum in array
+
+function largestPairSum (numbers) {
+  return numbers.sort((a,b)=>a-b).slice(-2).reduce((a,b)=>a+b,0);
+}
