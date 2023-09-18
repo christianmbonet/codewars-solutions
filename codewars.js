@@ -3201,3 +3201,9 @@ function sumOfMinimums(arr) {
 function largestPairSum (numbers) {
   return numbers.sort((a,b)=>a-b).slice(-2).reduce((a,b)=>a+b,0);
 }
+
+// Get character from ASCII
+
+function getChar(c){
+  return String.fromCharCode(c)
+}
