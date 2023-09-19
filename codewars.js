@@ -3202,6 +3202,17 @@ function largestPairSum (numbers) {
   return numbers.sort((a,b)=>a-b).slice(-2).reduce((a,b)=>a+b,0);
 }
 
+// Find nth number
+
+var findDigit = function(num, nth){
+  if (nth <= 0){
+    return -1
+  } else {
+    let number = Math.abs(num).toString()
+    return Number(number.charAt(number.length - nth))
+  }
+}
+
 // Get character from ASCII
 
 function getChar(c){
