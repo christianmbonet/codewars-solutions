@@ -3213,6 +3213,15 @@ var findDigit = function(num, nth){
   }
 }
 
+// Max diff - easy
+
+function maxDiff(list) {
+  if (list.length == 0 || list.length == null){
+    return 0
+  } else {
+    return Math.max(...list) - Math.min(...list)
+}};
+
 // Get character from ASCII
 
 function getChar(c){
