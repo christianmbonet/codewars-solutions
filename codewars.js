@@ -3236,6 +3236,12 @@ function points(games) {
   return sum;
 }
 
+// Regex validate pin - repeat
+
+function validatePIN (pin) {
+  return /^(\d{4}|\d{6})$/.test(pin)
+}
+
 // Get character from ASCII
 
 function getChar(c){
