@@ -3242,6 +3242,30 @@ function validatePIN (pin) {
   return /^(\d{4}|\d{6})$/.test(pin)
 }
 
+// Return middle character
+
+function getMiddle(s)
+{
+  let length = s.length;
+  if (length < 2){
+    return s
+  } else if {
+    if (length % 2){
+      for (i=0; i < length; i++){
+        if (i == (length - 1)/2){
+          return s[i]
+        }
+      }
+    } else {
+      for (i=0; i < length; i++){
+        if (i == length/2){
+          return s[i - 1] + s[i]
+        }
+      }
+    }
+  }
+}
+
 // Get character from ASCII
 
 function getChar(c){
