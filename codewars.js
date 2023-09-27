@@ -3269,3 +3269,22 @@ function validatePIN (pin) {
 function getChar(c){
   return String.fromCharCode(c)
 }
+
+// How old will i be in 2099
+
+function  calculateAge(yob, year) {
+  
+  var age = year - yob;
+  
+    if(age === 1) {
+    return 'You are ' + age + ' year old.';
+      } else if(age > 1) {
+        return 'You are ' + age + ' years old.';
+      } else if (age < -1) {
+        return 'You will be born in ' +  Math.abs(age) + ' years.';
+      } else if (age === -1) {
+        return 'You will be born in ' + Math.abs(age) + ' year.';
+      } else {
+        return 'You were born this very year!';
+      }
+  }
