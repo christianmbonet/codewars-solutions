@@ -3288,3 +3288,9 @@ function  calculateAge(yob, year) {
         return 'You were born this very year!';
       }
   }
+
+// CSV array
+
+function toCsvText(array) {
+  return array.join('\n');
+}
