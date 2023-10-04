@@ -3323,3 +3323,9 @@ function func(str) {
   let arr = str.toLowerCase().split('');
   return arr.filter(element => element == 'x').length === arr.filter(element => element == 'o').length
 }
+
+// Summing numbers digits
+
+function sumDigits(number) {
+  return Math.abs(number).toString().split("").reduce((total,next)=>total+Number(next),0)
+}
