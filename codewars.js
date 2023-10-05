@@ -3329,3 +3329,11 @@ function func(str) {
 function sumDigits(number) {
   return Math.abs(number).toString().split("").reduce((total,next)=>total+Number(next),0)
 }
+
+// Classy classes
+
+class Person {
+  constructor(name, age) {
+    this.info = `${name}s age is ${age}`
+  }
+}
