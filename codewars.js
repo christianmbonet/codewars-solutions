@@ -3369,3 +3369,21 @@ function checkExam(array1, array2) {
     if (a < b) return -1;
     if (a > b) return 1;
 }}
+
+// Leo and Oscars - repeat - with prev attempt
+
+function leo(oscar){
+  //  if (oscar === 88){
+  //    return "Leo finally won the oscar! Leo is happy"
+  //  } else if (oscar === 86){
+  //    return "Not even for Wolf of wallstreet?!"
+  //  } else if (oscar < 88){
+  //    return "When will you give Leo an Oscar?"
+  //  } else if (oscar > 88){
+  //    "Leo got one already!"
+  //  }
+    if (oscar === 88) return ('Leo finally won the oscar! Leo is happy');
+  if (oscar === 86) return ('Not even for Wolf of wallstreet?!');
+  if (oscar < 88) return ('When will you give Leo an Oscar?');
+  if (oscar > 88) return ('Leo got one already!');
+  }
