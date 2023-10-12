@@ -3387,3 +3387,9 @@ function leo(oscar){
   if (oscar < 88) return ('When will you give Leo an Oscar?');
   if (oscar > 88) return ('Leo got one already!');
   }
+
+  // Join strings ES6
+
+  function joinStrings(string1, string2){
+    return `${string1} ${string2}`
+ }
