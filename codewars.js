@@ -3393,3 +3393,9 @@ function leo(oscar){
   function joinStrings(string1, string2){
     return `${string1} ${string2}`
  }
+
+ // Is it a digit
+
+ String.prototype.digit = function() {
+  return /^\d$/.test(this);
+};
