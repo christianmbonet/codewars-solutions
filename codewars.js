@@ -3429,3 +3429,13 @@ function warnTheSheep(queue) {
       )}! You are about to be eaten by a wolf!`;
   }
 }
+
+// Simple beads count - repeat
+
+function countRedBeads(n) {
+  if ((n * 2 - 2) < 0){
+    return 0
+  } else {
+    return n * 2 - 2
+  }
+}
