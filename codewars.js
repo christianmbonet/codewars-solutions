@@ -3466,3 +3466,9 @@ function dataReverse(data) {
     final.push(data[i])
   } return final
 }
+
+// Get ascii value of character
+
+function getASCII(c){
+  return c.charCodeAt(0)
+}
