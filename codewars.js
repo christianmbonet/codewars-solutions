@@ -3491,3 +3491,11 @@ String.prototype.toJadenCase = function () {
   return this.split(' ').
     map(w => w[0].toUpperCase() + w.slice(1)).join(' ')
 };
+
+// Validate code with simple regex
+
+function validateCode (code) {
+  let codeStr = code + '';
+   let regex = /^[123]/;
+   return regex.test(codeStr)
+ }
