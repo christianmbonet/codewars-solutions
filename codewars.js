@@ -3499,3 +3499,13 @@ function validateCode (code) {
    let regex = /^[123]/;
    return regex.test(codeStr)
  }
+
+ // Will you make it - repeat
+
+ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+  if (distanceToPump <= (fuelLeft * mpg)){
+    return true
+  } else {
+    return false
+  }
+};
