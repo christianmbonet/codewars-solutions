@@ -3523,3 +3523,11 @@ function declareWinner(fighter1, fighter2, firstAttacker) {
 function parseF(s) {
   return /\d/.test(s) ? +s : null
 }
+
+// Abbreviate - repeat
+
+function abbrevName(name){
+  return name.split(' ')
+  .map((thing) => thing[0].toUpperCase())
+  .join('.')
+}
