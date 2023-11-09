@@ -3531,3 +3531,9 @@ function abbrevName(name){
   .map((thing) => thing[0].toUpperCase())
   .join('.')
 }
+
+// Extract domain from URL
+
+function domainName(url){
+  return url.replace(/.+\/\/|www.|\..+/g, '')
+}
