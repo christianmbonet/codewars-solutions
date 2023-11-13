@@ -3537,3 +3537,9 @@ function abbrevName(name){
 function domainName(url){
   return url.replace(/.+\/\/|www.|\..+/g, '')
 }
+
+// Beginner cockroach
+
+function cockroachSpeed(s) {
+  return Math.floor(s * 27.78);
+ }
