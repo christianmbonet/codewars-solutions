@@ -3538,8 +3538,16 @@ function domainName(url){
   return url.replace(/.+\/\/|www.|\..+/g, '')
 }
 
-// Beginner cockroach
+// Beginner cockroach - correction 
+
+// old
 
 function cockroachSpeed(s) {
   return Math.floor(s * 27.78);
+ }
+
+ // new 
+
+ function cockroachSpeed(s) {
+  return Math.floor(s * 1000 * 100 / (60 * 60));
  }
