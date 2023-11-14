@@ -3551,3 +3551,9 @@ function cockroachSpeed(s) {
  function cockroachSpeed(s) {
   return Math.floor(s * 1000 * 100 / (60 * 60));
  }
+
+ // Pick a set of first elements
+
+ function first(arr, n) {
+  return n == undefined ? arr.slice(0,1) : arr.slice(0,n)
+ }
