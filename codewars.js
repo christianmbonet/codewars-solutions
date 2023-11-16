@@ -3563,3 +3563,11 @@ function cockroachSpeed(s) {
  var Ghost = function() {
   this.color = ['white', 'yellow', 'purple', 'red'][Math.floor(Math.random() * 4)]
 };
+
+// ASCII total
+
+function uniTotal (s) {
+  return [...s].reduce(
+  (result, currentElement) => result + currentElement.charCodeAt(), 0
+  )
+}
