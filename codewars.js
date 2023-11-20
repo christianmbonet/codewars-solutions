@@ -3571,3 +3571,13 @@ function uniTotal (s) {
   (result, currentElement) => result + currentElement.charCodeAt(), 0
   )
 }
+
+// Simple remove duplicates
+
+function solve(arr) {
+  let newArr = arr.slice().filter((n, i) => arr.indexOf(n) !== i)
+  for(let i = 0; i< newArr.length; i++){
+    arr.splice(arr.indexOf(newArr[i]), 1)
+  }
+  return arr
+}
