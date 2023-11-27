@@ -3595,4 +3595,9 @@ function Ship(draft,crew) {
  
    return this.draft - this.crew * CREW_MEMBER_WEIGHT > MINIMUM_BOOTY
  }
- 
+
+// Convert an array of string to number
+
+function toNumberArray(stringarray){
+  return stringarray.map(Number)
+}
