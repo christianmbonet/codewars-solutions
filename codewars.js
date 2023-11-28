@@ -3601,3 +3601,9 @@ function Ship(draft,crew) {
 function toNumberArray(stringarray){
   return stringarray.map(Number)
 }
+
+// Who ate the cookie 
+
+function cookie(x){
+  return `Who ate the last cookie? It was ${{string: 'Zach', number: 'Monica'}[typeof x] || 'the dog'}!`
+}
