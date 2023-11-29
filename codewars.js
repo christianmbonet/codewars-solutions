@@ -3607,3 +3607,9 @@ function toNumberArray(stringarray){
 function cookie(x){
   return `Who ate the last cookie? It was ${{string: 'Zach', number: 'Monica'}[typeof x] || 'the dog'}!`
 }
+
+// Geometry Basics: Distance between points in 2D
+
+function distanceBetweenPoints(a, b) {
+  return Math.sqrt((b.y-a.y)**2 + (b.x -a.x)**2)
+}
