@@ -3613,3 +3613,9 @@ function cookie(x){
 function distanceBetweenPoints(a, b) {
   return Math.sqrt((b.y-a.y)**2 + (b.x -a.x)**2)
 }
+
+// Area of square - repeat
+
+function squareArea(A){
+  return Number(Math.pow((A * 2) / (Math.PI * 2), 2).toFixed(2));
+}
