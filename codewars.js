@@ -3619,3 +3619,13 @@ function distanceBetweenPoints(a, b) {
 function squareArea(A){
   return Number(Math.pow((A * 2) / (Math.PI * 2), 2).toFixed(2));
 }
+
+// Automorphic 
+
+function automorphic(n){
+  if (`${n * n}`.endsWith(`${n}`)){
+      return 'Automorphic'
+      } else {
+    return 'Not!!'
+  }
+}
