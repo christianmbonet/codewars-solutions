@@ -3629,3 +3629,9 @@ function automorphic(n){
     return 'Not!!'
   }
 }
+
+// Reversed string
+
+function solution(str){
+  return str.split("").reverse().join("")
+} 
