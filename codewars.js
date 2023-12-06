@@ -3635,3 +3635,11 @@ function automorphic(n){
 function solution(str){
   return str.split("").reverse().join("")
 } 
+
+// Training on power
+
+function numberToPower(number, power){
+  let result=1;
+  for (let i=1;i<=power;i++){result*=number}
+    return result
+}
