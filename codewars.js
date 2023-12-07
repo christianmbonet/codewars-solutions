@@ -3655,3 +3655,9 @@ function padIt(str,n){
     } n--
   } return str
 }
+
+// Sort men from boys
+
+function menFromBoys(arr){
+  return [...new Set(arr.filter(v=>v%2===0).sort((a,b)=>a-b).concat(arr.filter(v=>v%2!==0).sort((a,b)=>b-a)))]
+}
