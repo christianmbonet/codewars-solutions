@@ -3661,3 +3661,25 @@ function padIt(str,n){
 function menFromBoys(arr){
   return [...new Set(arr.filter(v=>v%2===0).sort((a,b)=>a-b).concat(arr.filter(v=>v%2!==0).sort((a,b)=>b-a)))]
 }
+
+// Sort the odd 
+
+function sortArray(array) {
+  let odd = [];
+  let even = [];
+  let newArr = [];
+  for (i=0; i < array.length; i++){
+    if (array[i] % 2 != 0){
+      odd.push(array[i])
+    } else {
+      even.push(array[i])
+    }
+  } odd.sort((a, b) => a - b)
+  for (let i = 0; i < array.length; i += 1) {
+    if (array[i]%2 === 0) {
+      newArr.push(even.shift());
+    } else {
+      newArr.push(odd.shift());
+    }
+  }  return newArr;
+}
