@@ -3693,3 +3693,9 @@ function disemvowel(str) {
     .filter(el => vowels.indexOf(el.toLowerCase()) == -1)
     .join('');
 }
+
+// Is it a digit? - repeat
+
+String.prototype.digit = function() {
+  return /^\d$/.test(this);
+};
