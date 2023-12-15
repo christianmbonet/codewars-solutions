@@ -3706,3 +3706,11 @@ function capitalize(s){
   return [s.split('').map((v,i)=>i%2==0?v.toUpperCase():v.toLowerCase()).join(''),
           s.split('').map((v,i)=>i%2!==0?v.toUpperCase():v.toLowerCase()).join('')]
 };
+
+// Reverse every other word
+
+function reverse(str){
+  let newnew = str.split(' ');
+  let challenge =  newnew.map((a, i) => (i%2 == 0)? a : a.split('').reverse().join('')).join(' ')
+  return (str == false) ? '' : challenge
+}
