@@ -3714,3 +3714,9 @@ function reverse(str){
   let challenge =  newnew.map((a, i) => (i%2 == 0)? a : a.split('').reverse().join('')).join(' ')
   return (str == false) ? '' : challenge
 }
+
+// Most digits - repeat
+
+function findLongest(array){
+  return array.reduce((a, b) => (`${b}`.length > `${a}`.length ? b : a))
+}
