@@ -3720,3 +3720,18 @@ function reverse(str){
 function findLongest(array){
   return array.reduce((a, b) => (`${b}`.length > `${a}`.length ? b : a))
 }
+
+// Break camel casing
+
+// complete the function
+function solution(string) {
+  let newString = ''
+    for (letter of string){
+      if (letter.toUpperCase() == letter){
+        newString += ' ';
+        newString += letter
+      } else {
+        newString += letter
+      }
+    } return newString
+}
