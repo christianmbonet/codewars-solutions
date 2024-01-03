@@ -3753,3 +3753,9 @@ function checkExam(array1, array2) {
      score = 0
    } return score
  }
+
+ // Spacify
+
+ function spacify(str) {
+  return str.split('').join(' ')
+}
