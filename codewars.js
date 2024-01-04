@@ -3759,3 +3759,11 @@ function checkExam(array1, array2) {
  function spacify(str) {
   return str.split('').join(' ')
 }
+
+// ASCII total - repeat
+
+function uniTotal (s) {
+  return [...s].reduce(
+  (result, currentElement) => result + currentElement.charCodeAt(), 0
+  )
+}
