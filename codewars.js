@@ -3781,3 +3781,9 @@ function getDrinkByProfession(param){
     case "rapper": return "Cristal";
     default: return "Beer";
 }}
+
+// Area square
+
+function squareArea(A){
+  return Number(Math.pow((A * 2) / (Math.PI * 2), 2).toFixed(2));
+}
