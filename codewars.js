@@ -3787,3 +3787,9 @@ function getDrinkByProfession(param){
 function squareArea(A){
   return Number(Math.pow((A * 2) / (Math.PI * 2), 2).toFixed(2));
 }
+
+// Love vs friendship
+
+function wordsToMarks(string){
+  return [...string].reduce((res, c) => res += c.charCodeAt() - 96, 0)
+}
