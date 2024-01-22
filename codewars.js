@@ -3839,3 +3839,9 @@ function warnTheSheep(queue) {
       )}! You are about to be eaten by a wolf!`;
   }
 }
+
+// Spacify - repeat
+
+function spacify(str) {
+  return str.split('').join(' ')
+}
