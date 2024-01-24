@@ -3857,3 +3857,11 @@ const dataReverse = function(data){
   }
   return arrayBytes.reverse().join().split(',').map(v=>v*1);
 }
+
+// Is it pangram
+
+const isPangram = (string) => {
+  let alphabets = 'abcdefghijklmnopqrstuvwxyz'.split("");
+    string = string.toLowerCase();
+    return alphabets.every(x => string.includes(x));
+}
