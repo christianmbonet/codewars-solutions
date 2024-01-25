@@ -3865,3 +3865,9 @@ const isPangram = (string) => {
     string = string.toLowerCase();
     return alphabets.every(x => string.includes(x));
 }
+
+// Thinkful red and blue marbles
+
+function guessBlue(blueStart, redStart, bluePulled, redPulled) {
+  return (blueStart - bluePulled) / (redStart - redPulled + blueStart - bluePulled);
+}
