@@ -3871,3 +3871,9 @@ const isPangram = (string) => {
 function guessBlue(blueStart, redStart, bluePulled, redPulled) {
   return (blueStart - bluePulled) / (redStart - redPulled + blueStart - bluePulled);
 }
+
+// Sort by last char
+
+function last(x){
+  return x.split(' ').sort((a,b) => (a.charCodeAt(a.length - 1) - b.charCodeAt(b.length - 1)))
+}
