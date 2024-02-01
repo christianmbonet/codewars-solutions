@@ -3877,3 +3877,10 @@ function guessBlue(blueStart, redStart, bluePulled, redPulled) {
 function last(x){
   return x.split(' ').sort((a,b) => (a.charCodeAt(a.length - 1) - b.charCodeAt(b.length - 1)))
 }
+
+// Exes and ohs
+
+function func (str) {
+  let arr = str.toLowerCase().split('');
+  return arr.filter(element => element == 'x').length === arr.filter(element => element == 'o').length
+}
