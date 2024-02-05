@@ -3896,3 +3896,9 @@ function queueTime(customers, n) {
 
   return Math.max(...arr);
 }
+
+// Grasshopper order of op
+
+function orderOperations () {
+  return (2 + 2) * (2 + 2) * 2
+}
