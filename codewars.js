@@ -3902,3 +3902,17 @@ function queueTime(customers, n) {
 function orderOperations () {
   return (2 + 2) * (2 + 2) * 2
 }
+
+// Check case - repeat
+
+function sameCase(a, b){
+  if (!a.match(/[A-z]/g) || !b.match(/[A-z]/g)){
+    return -1
+  } else if (
+    (a.match(/^[A-Z]$/) && b.match(/^[A-Z]$/)) ||
+    (a.match(/^[a-z]$/) && b.match(/^[a-z]$/))){
+    return 1
+  } else {
+    return 0
+  }
+}
