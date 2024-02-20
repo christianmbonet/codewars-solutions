@@ -3966,3 +3966,11 @@ function cubeOdd(arr) {
    
      return this.draft - this.crew * CREW_MEMBER_WEIGHT > MINIMUM_BOOTY
    }
+
+   // ASCII Total - repeat
+
+   function uniTotal (s) {
+    return [...s].reduce(
+    (result, currentElement) => result + currentElement.charCodeAt(), 0
+    )
+  }
