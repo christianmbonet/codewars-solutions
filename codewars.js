@@ -3974,3 +3974,9 @@ function cubeOdd(arr) {
     (result, currentElement) => result + currentElement.charCodeAt(), 0
     )
   }
+
+  // Training JS split and concat and join
+
+  function splitAndMerge(string, separator) {
+    return string.split(' ').map(element => element.split('').join(separator)).join(' ')
+  }
