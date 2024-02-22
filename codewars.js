@@ -3986,3 +3986,9 @@ function cubeOdd(arr) {
   function squareArea(A){
     return Number(Math.pow((A * 2) / (Math.PI * 2), 2).toFixed(2));
   }
+
+  // Area of square better
+
+  function squareArea(A){
+    return Number(Math.pow(2 * A / 3.1416, 2).toFixed(2))
+  }
