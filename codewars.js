@@ -3980,3 +3980,9 @@ function cubeOdd(arr) {
   function splitAndMerge(string, separator) {
     return string.split(' ').map(element => element.split('').join(separator)).join(' ')
   }
+
+  // Area of square repeat
+
+  function squareArea(A){
+    return Number(Math.pow((A * 2) / (Math.PI * 2), 2).toFixed(2));
+  }
