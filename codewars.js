@@ -3992,3 +3992,13 @@ function cubeOdd(arr) {
   function squareArea(A){
     return Number(Math.pow(2 * A / 3.1416, 2).toFixed(2))
   }
+
+  // Disemvowels
+
+  function disemvowel(str) {
+    var vowels = ['a', 'e', 'i', 'o', 'u'];
+    return str
+      .split('')
+      .filter(el => vowels.indexOf(el.toLowerCase()) == -1)
+      .join('');
+  }
