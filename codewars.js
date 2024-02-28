@@ -4003,7 +4003,7 @@ function cubeOdd(arr) {
       .join('');
   }
 
-  // Drinks repeat
+  // Drinks - repeat
 
   function getDrinkByProfession(param){
     let peop = param.toLowerCase();
