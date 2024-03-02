@@ -4023,7 +4023,7 @@ function findLongest(array){
   return array.reduce((a, b) => (`${b}`.length > `${a}`.length ? b : a))
 }
 
-// Growth of a population
+// Growth of a population -
 
 function nbYear(p0, percent, aug, p) {
   let year=0;
