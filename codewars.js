@@ -4040,3 +4040,23 @@ function Hero (name) {
   this.damage = 5,
   this.experience = 0
 }
+
+// Grasshopper - create the rooms
+
+var rooms = {
+  room: {
+      name: 'a',
+      description: 'b',
+      completed: 'c'
+    },
+  room2: {
+      name: 'a',
+      description: 'b',
+      completed: 'c'
+    },
+  room3: {
+      name: 'a',
+      description: 'b',
+      completed: 'c'
+    }
+  }
