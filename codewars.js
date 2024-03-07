@@ -4071,3 +4071,15 @@ const main = () =>
   [rollDice, move, combat, getCoins, buyHealth, printStatus].forEach(action =>
     action()
   )
+
+// Sum of multiples
+
+function sumMul(n,m){
+  if (m <= n){
+    return 'INVALID'
+  } 
+   let sum = 0
+   for (i=n; i < m; i += n){
+     sum += i
+   } return sum
+ }
