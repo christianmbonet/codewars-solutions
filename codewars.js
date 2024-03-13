@@ -4095,3 +4095,10 @@ function sumMul(n,m){
     return y
   }).join('')
 }
+
+// Exes and ohs
+
+function func (str) {
+  let arr = str.toLowerCase().split('');
+  return arr.filter(element => element == 'x').length === arr.filter(element => element == 'o').length
+}
