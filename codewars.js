@@ -4135,3 +4135,10 @@ class Block {
     return 2 * (l*w + l*h + w*h);
   }
 }
+
+// Smallest value of an array
+
+function min(arr, toReturn) {
+  if (toReturn==='value') return Math.min(...arr)
+  return arr.indexOf(Math.min(...arr))
+}
