@@ -4157,3 +4157,15 @@ function maxRot(n) {
 
 // Been reading this the past two days at lunch: https://www.researchgate.net/publication/7142775_Some_Thoughts_about_Schizoid_Dynamics
 // Passed on coding exercises
+
+// non descending
+
+function tidyNumber(n){
+  let arr=n.toString().split('')
+  for (let i=0;i<arr.length-1;i++)
+  {
+  if (arr[i]<=arr[i+1]){continue}
+  else { return false} 
+  }
+  return true
+}
