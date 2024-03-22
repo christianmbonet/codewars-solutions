@@ -4154,3 +4154,6 @@ function maxRot(n) {
   }
   return Math.max.apply(null, arr);
 }
+
+// Been reading this the past two days at lunch: https://www.researchgate.net/publication/7142775_Some_Thoughts_about_Schizoid_Dynamics
+// Passed on coding exercises
