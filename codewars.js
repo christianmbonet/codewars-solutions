@@ -4192,3 +4192,14 @@ function sortMyString(s) {
   let odd = s.split('').filter((v, i) => i % 2 !== 0).join('')
   return even + ' ' + odd
 }
+
+// Indexed capitalization
+
+function capitalize(s,arr){
+  return s.split('').map((val, i)=>(arr.includes(i)) ? val.toUpperCase() : val).join('');
+};
+//map or for loop
+//for each one
+//if it equals one of arr
+//toUppercase
+//forgot the split
