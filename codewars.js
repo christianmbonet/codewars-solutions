@@ -4258,3 +4258,7 @@ function twoSum(numbers, target) {
     }
   }
   } 
+
+// Regex validation
+
+const REGEXP = /^(?=.*[A-Z])(?=.*[0-9])(?=.*[a-z])[a-zA-Z0-9]{6,}$/;
