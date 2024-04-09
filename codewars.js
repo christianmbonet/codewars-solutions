@@ -4262,3 +4262,11 @@ function twoSum(numbers, target) {
 // Regex validation
 
 const REGEXP = /^(?=.*[A-Z])(?=.*[0-9])(?=.*[a-z])[a-zA-Z0-9]{6,}$/;
+
+// Growth of population - repeat
+
+function nbYear(p0, percent, aug, p) {
+  let year=0;
+   while (p0<p){year++; p0=p0+(p0*(percent/100))+aug}
+    return year
+ }
