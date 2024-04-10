@@ -4270,3 +4270,10 @@ function nbYear(p0, percent, aug, p) {
    while (p0<p){year++; p0=p0+(p0*(percent/100))+aug}
     return year
  }
+
+// Did she say hallo?
+
+function validateHello(greetings) {
+  let res =/(hello|ciao|salut|hallo|hola|ahoj|czesc)/i.test(greetings) 
+  return res
+}
