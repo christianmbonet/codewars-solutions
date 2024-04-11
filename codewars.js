@@ -4277,3 +4277,9 @@ function validateHello(greetings) {
   let res =/(hello|ciao|salut|hallo|hola|ahoj|czesc)/i.test(greetings) 
   return res
 }
+
+// Is period late?
+
+function periodIsLate(last, today, cycleLength) {
+  return Math.floor(today.getTime() - last.getTime()) / 86400000 > cycleLength
+}
