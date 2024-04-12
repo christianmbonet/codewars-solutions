@@ -4283,3 +4283,5 @@ function validateHello(greetings) {
 function periodIsLate(last, today, cycleLength) {
   return Math.floor(today.getTime() - last.getTime()) / 86400000 > cycleLength
 }
+
+// Editing my sister's writing today -- no codewars
