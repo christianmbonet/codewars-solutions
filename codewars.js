@@ -4295,3 +4295,11 @@ function incrementString (strng) {
     return up.toString().length > p2.length ? p1.slice(0, -1) + up : p1 + up;
   });
 }
+
+// Bouncing balls
+
+function bouncingBall(h,  bounce,  window) {
+  var rebounds = -1;
+  if (bounce > 0 && bounce < 1) while (h > window) rebounds+=2, h *= bounce;
+  return rebounds;
+}
