@@ -4303,3 +4303,17 @@ function bouncingBall(h,  bounce,  window) {
   if (bounce > 0 && bounce < 1) while (h > window) rebounds+=2, h *= bounce;
   return rebounds;
 }
+
+// Check same case
+
+function sameCase(a, b){
+  if (!a.match(/[A-z]/g) || !b.match(/[A-z]/g)){
+    return -1
+  } else if (
+    (a.match(/^[A-Z]$/) && b.match(/^[A-Z]$/)) ||
+    (a.match(/^[a-z]$/) && b.match(/^[a-z]$/))){
+    return 1
+  } else {
+    return 0
+  }
+}
