@@ -4335,3 +4335,11 @@ function chromosomeCheck(sperm) {
     return `Congratulations! You're going to have a daughter.`
   }
 }
+
+// Classic hello world
+
+class Solution{
+  static main() {
+    console.log('Hello World!')
+  }
+}
