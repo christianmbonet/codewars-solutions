@@ -4325,3 +4325,13 @@ function count(string) {
    string.split('').map(v=>cache[v]=cache[v]+1||1)
    return cache;
 }
+
+// Chromosomes - repeat 
+
+function chromosomeCheck(sperm) {
+  if (sperm.includes('Y')){
+    return `Congratulations! You're going to have a son.`
+  } else {
+    return `Congratulations! You're going to have a daughter.`
+  }
+}
