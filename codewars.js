@@ -4343,3 +4343,9 @@ class Solution{
     console.log('Hello World!')
   }
 }
+
+// Simple comparison 
+
+function add(a, b){
+	return +a==+b
+}
