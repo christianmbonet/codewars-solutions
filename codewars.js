@@ -4349,3 +4349,18 @@ class Solution{
 function add(a, b){
 	return +a==+b
 }
+
+// Number of people on the bus
+
+var number = function(busStops){
+  let totalEntries = 0
+  let totalDowns = 0
+
+  busStops.map((arr)=> { 
+    totalEntries += arr[0] 
+    totalDowns += arr[1]
+  })
+
+  return totalEntries  - totalDowns
+
+}
