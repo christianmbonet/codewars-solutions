@@ -4409,3 +4409,9 @@ function alphabetWar(fight)
     
    return "Let's fight again!";
 }
+
+// Product of maximums of array
+
+function maxProduct(numbers, size){
+  return numbers.sort((a,b) => b - a).slice(0,size).reduce((prev,curr) => prev * curr)
+}
