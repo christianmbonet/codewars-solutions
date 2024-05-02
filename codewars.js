@@ -4415,3 +4415,11 @@ function alphabetWar(fight)
 function maxProduct(numbers, size){
   return numbers.sort((a,b) => b - a).slice(0,size).reduce((prev,curr) => prev * curr)
 }
+
+// Sum of odd numbers - need some explanation as to why
+
+function rowSumOddNumbers(n) {
+	return n * n * n
+}
+
+
