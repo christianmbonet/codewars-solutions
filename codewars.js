@@ -4422,4 +4422,20 @@ function rowSumOddNumbers(n) {
 	return n * n * n
 }
 
+// Reduce directions - wrong
+
+function dirReduc(array){
+  let directions = [];
+    for (let i = 0; i < array.length - 1; i++) {
+      if (
+        (array[i] === "NORTH" && array[i + 1] === "SOUTH") ||
+        (array[i] === "SOUTH" && array[i + 1] === "NORTH") ||
+        (array[i] === "EAST" && array[i + 1] === "WEST") ||
+        (array[i] === "WEST" && array[i + 1] === "EAST")
+      )
+        directions.push(array[i]);
+    }
+    return directions
+  }
+
 
