@@ -4444,4 +4444,9 @@ function outed(meet, boss, whole = Object.keys(meet)){
   return (whole.reduce((a,b) => a + meet[b], 0) + meet[boss]) / whole.length > 5 ? 'Nice Work Champ!' : 'Get Out Now!'
 } 
 
+// Swift Playgrounds - Learn to Code 2
+// Crank up and down
+
+
+
 
