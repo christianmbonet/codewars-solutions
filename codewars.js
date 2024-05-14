@@ -4453,4 +4453,7 @@ function outed(meet, boss, whole = Object.keys(meet)){
 // Swift Playgrounds - Learn to Code 2
 // Rivers to cross
 
+// Swift Playgrounds - Learn to Code 2
+// Placing two characters
+
 
