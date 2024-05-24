@@ -4466,14 +4466,14 @@ function outed(meet, boss, whole = Object.keys(meet)){
 // Uniting Worlds
 
 // Swift Playgrounds - Learn to Code 2
-// Connect and solve
+// Connect and Solve
 
 // Swift Playgrounds - Learn to Code 2
-// Make your own portals
+// Make your own Portals
 
 // Swift Playgrounds - Learn to Code 2
-// Reach for the stairs
+// Reach for the Stairs
 
 // Swift Playgrounds - Learn to Code 2
-// Floating islands
+// Floating Islands
 
