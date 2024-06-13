@@ -4504,3 +4504,6 @@ function outed(meet, boss, whole = Object.keys(meet)){
 // Swift Playgrounds - Learn to Code 2
 // Appending Removed Values
 
+// Swift Playgrounds - Learn to Code 2
+// Find the Index Out of Range Error
+
