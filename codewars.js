@@ -4513,3 +4513,6 @@ function outed(meet, boss, whole = Object.keys(meet)){
 // Swift Playgrounds - Learn to Code 2
 // Randomized Lands
 
+// Swift Playgrounds - Learn to Code 2
+// Another Way to Create an Array
+
