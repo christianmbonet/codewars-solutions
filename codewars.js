@@ -4518,3 +4518,19 @@ function outed(meet, boss, whole = Object.keys(meet)){
 
 // Swift Playgrounds - Learn to Code 2
 // The Art of the Array
+
+// Squares Sequence
+
+function squares(x, n) {
+  let res = []
+  if (n == 1){
+    return [x]
+  }
+  for (i=0; i < n - 1; i++){
+    if (i == 0){
+      res.push(x)
+    }
+    res.push(x *= x)
+  }
+  return res
+}
