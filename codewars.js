@@ -4542,3 +4542,9 @@ function slope(points)
 let slope = (points[3] - points[1]) / (points[2] - points[0])
   return isFinite(slope) ? `${slope}` : 'undefined'
 }
+
+// Char Code Calculation
+
+function calc(x){
+  return (x.replace(/./g,x=>x.charCodeAt()).match(/7/g)||[]).length*6
+}
