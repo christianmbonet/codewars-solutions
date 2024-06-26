@@ -4548,3 +4548,13 @@ let slope = (points[3] - points[1]) / (points[2] - points[0])
 function calc(x){
   return (x.replace(/./g,x=>x.charCodeAt()).match(/7/g)||[]).length*6
 }
+
+// Incrementer
+
+function incrementer(nums) { 
+  let res = [];
+  for (let i = 0; i < nums.length; i++){
+    res.push((nums[i] + 1 + i) % 10)
+  }
+  return res
+}
