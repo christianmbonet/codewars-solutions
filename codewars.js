@@ -4558,3 +4558,9 @@ function incrementer(nums) {
   }
   return res
 }
+
+// Number of Decimal Digits
+
+function digits(n) {
+  return String(n).length
+}
