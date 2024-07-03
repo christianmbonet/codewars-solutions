@@ -4570,3 +4570,9 @@ function digits(n) {
 function squareArea(A){
   return Number(Math.pow(2 * A / 3.1416, 2).toFixed(2))
 }
+
+// V A P O R C O D E
+
+function vaporcode(string) {
+  return string.toUpperCase().replace(/\s/g, '').split('').join('  ')
+}
