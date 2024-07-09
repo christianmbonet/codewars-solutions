@@ -4584,3 +4584,10 @@ function bouncingBall(h,  bounce,  window) {
   if (bounce > 0 && bounce < 1) while (h > window) rebounds+=2, h *= bounce;
   return rebounds;
 }
+
+// Did she say hallo - repeat
+
+function validateHello(greetings) {
+  let res =/(hello|ciao|salut|hallo|hola|ahoj|czesc)/i.test(greetings) 
+  return res
+}
