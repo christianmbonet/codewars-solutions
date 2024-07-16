@@ -4591,3 +4591,9 @@ function validateHello(greetings) {
   let res =/(hello|ciao|salut|hallo|hola|ahoj|czesc)/i.test(greetings) 
   return res
 }
+
+// Summing a numbers digits
+
+function sumDigits(number) {
+  return Math.abs(number).toString().split("").reduce((total,next)=>total+Number(next),0)
+}
