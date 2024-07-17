@@ -4597,3 +4597,21 @@ function validateHello(greetings) {
 function sumDigits(number) {
   return Math.abs(number).toString().split("").reduce((total,next)=>total+Number(next),0)
 }
+
+// Duplicate encoder - incorrect 
+
+function duplicateEncode(word){
+  let obj = {}
+  let letter = word.toLowerCase().split('')
+  for (i = 0; i < letter.legnth; i++){
+    let x = letter[i]
+    if (obj[x] === undefined){
+      obj[x] = 1
+    } else {
+      obj[x] += 1
+    }
+  } return letter.map(function(letter){
+    return obj[letter] === 1 ? '(' : ')'
+}).join('')
+}
+
