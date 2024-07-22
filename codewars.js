@@ -4623,3 +4623,18 @@ const v4w2ls = ['1', '2', '3', '4', '5'];
 const encode = str => [...str].map(e => vowels.includes(e) ? e = vowels.indexOf(e) + 1 : e).join('');
 const decode = str => [...str].map(e => v4w2ls.includes(e) ? e = vowels[v4w2ls.indexOf(e)] : e).join('');
 
+// Grade
+
+function grader(score) {
+  if (score > 1 || score < 0.6){
+    return "F"
+  } else if (score >= 0.9){
+    return "A"
+  } else if (score >= 0.8){
+    return "B"
+  } else if (score >= 0.7){
+    return "C"
+  } else if (score >= 0.6){
+    return "D"
+  }
+}
