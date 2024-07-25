@@ -4649,3 +4649,10 @@ function containAllRots(str, arr) {
 }
 return true
 }
+
+// Multiply the number 
+
+function multiply(number){
+  return number * 5 ** String(Math.abs(number)).length
+}
+
