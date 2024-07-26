@@ -4656,3 +4656,9 @@ function multiply(number){
   return number * 5 ** String(Math.abs(number)).length
 }
 
+// Most digits
+
+function findLongest(array){
+  return array.reduce((a, b) => (`${b}`.length > `${a}`.length ? b : a))
+}
+
