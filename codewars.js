@@ -4671,3 +4671,15 @@ Array.prototype.sum     = function () { return this.reduce(function(a, b) { retu
 Array.prototype.even    = function () { return this.filter(function(item) { return 0 == item % 2; }); }
 Array.prototype.odd     = function () { return this.filter(function(item) { return 0 != item % 2; }); }
 
+// Deodorant evaporator - repeat
+
+function evaporator(content, evap_per_day, threshold){ 
+  let result = 0;
+  let percentage = 100;  
+  while (percentage > threshold) {
+    percentage = percentage - percentage * (evap_per_day / 100);
+    result += 1;
+  }
+  return result;
+}
+
