@@ -4683,3 +4683,9 @@ function evaporator(content, evap_per_day, threshold){
   return result;
 }
 
+// Return two highest values in list
+
+function twoHighest(arr) {
+  return [...new Set(arr.sort((a,b) => b - a))].slice(0,2)
+}
+
