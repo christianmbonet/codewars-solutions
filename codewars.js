@@ -4689,3 +4689,9 @@ function twoHighest(arr) {
   return [...new Set(arr.sort((a,b) => b - a))].slice(0,2)
 }
 
+// Simple comparison - repeat - still have questions about +
+
+function add(a, b){
+	return +a==+b
+}
+
