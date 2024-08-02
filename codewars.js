@@ -4695,3 +4695,9 @@ function add(a, b){
 	return +a==+b
 }
 
+// Product array - array series 5
+
+function productArray(numbers){
+  return numbers.map(element => numbers.reduce((prev, curr) => prev * curr)/element)
+}
+
