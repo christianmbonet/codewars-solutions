@@ -4704,14 +4704,12 @@ function productArray(numbers){
 // Check the case 
 
 function sameCase(a, b){
-  if (!a.match(/[A-z]/g) || !b.match(/[A-z]/g)){
-    return -1
-  } else if (
-    (a.match(/^[A-Z]$/) && b.match(/^[A-Z]$/)) ||
-    (a.match(/^[a-z]$/) && b.match(/^[a-z]$/))){
-    return 1
-  } else {
-    return 0
-  }
+  if (a.toLowerCase() == a.toUpperCase() || b.toLowerCase() == b.toUpperCase()){
+  return -1
+} else if (a == a.toLowerCase() && b == b.toLowerCase() || a == a.toUpperCase() && b == b.toUpperCase()){
+  return 1
+} else {
+  return 0
+}
 }
 
