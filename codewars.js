@@ -4713,3 +4713,11 @@ function sameCase(a, b){
 }
 }
 
+// Localize the barycenter of a triangle
+
+function barTriang(p1, p2, p3){
+  let finalY = +((p1[1] + p2[1] + p3[1])/3).toFixed(4)
+  let finalX = +((p1[0] + p2[0] + p3[0])/3).toFixed(4)
+  return [finalX,finalY]
+}
+
