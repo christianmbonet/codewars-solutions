@@ -4721,3 +4721,11 @@ function barTriang(p1, p2, p3){
   return [finalX,finalY]
 }
 
+// Currying functions: multiply all elements in an array
+
+function multiplyAll(arr) {
+  return function(mul){
+    return arr.map(ele => ele * mul)
+  }
+}
+
