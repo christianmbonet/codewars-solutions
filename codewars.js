@@ -4739,3 +4739,9 @@ function solve(s){
   return [upper, lower, number, special]
  }
 
+ // Logical calculator
+
+ function logicalCalc(array, op){
+  return !!array.reduce((prev, curr) => op == 'AND' ? prev && curr : op == 'OR' ? prev || curr : prev ^ curr)
+}
+
