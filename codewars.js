@@ -4745,3 +4745,17 @@ function solve(s){
   return !!array.reduce((prev, curr) => op == 'AND' ? prev && curr : op == 'OR' ? prev || curr : prev ^ curr)
 }
 
+// Training JS #12
+
+function giveMeFive(obj){
+  let arr = []
+  for (let i in obj){
+    if (i.length == 5){
+      arr.push(i)
+    }
+    if (obj[i].length == 5){
+      arr.push(obj[i])
+    }
+  } return arr
+}
+
