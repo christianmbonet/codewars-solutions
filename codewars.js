@@ -4772,3 +4772,13 @@ var humanYearsCatYearsDogYears = function(humanYears) {
   if (humanYears == 2) return [2, 24, 24]
   return [humanYears, 24 + (humanYears - 2) * 4, 24 + (humanYears - 2) * 5]
  }
+
+ // Determine sex - repeat
+
+ function chromosomeCheck(sperm) {
+  if (sperm.includes('Y')){
+    return `Congratulations! You're going to have a son.`
+  } else {
+    return `Congratulations! You're going to have a daughter.`
+  }
+}
