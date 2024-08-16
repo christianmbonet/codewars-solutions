@@ -4782,3 +4782,9 @@ var humanYearsCatYearsDogYears = function(humanYears) {
     return `Congratulations! You're going to have a daughter.`
   }
 }
+
+// Area of a square - repeat
+
+function squareArea(A){
+  return Number(Math.pow(2 * A / 3.1416, 2).toFixed(2))
+}
