@@ -4783,8 +4783,8 @@ var humanYearsCatYearsDogYears = function(humanYears) {
   }
 }
 
-// Area of a square - repeat
+// Area of a square - repeat - correction
 
 function squareArea(A){
-  return Number(Math.pow(2 * A / 3.1416, 2).toFixed(2))
+  return +(Math.pow(2 * A / 3.1416, 2).toFixed(2))
 }
