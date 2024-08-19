@@ -4788,3 +4788,17 @@ var humanYearsCatYearsDogYears = function(humanYears) {
 function squareArea(A){
   return +(Math.pow(2 * A / Math.PI, 2).toFixed(2))
 }
+
+// Quadrants
+
+function quadrant(x, y) {
+  if (x > 0 && y > 0){
+    return 1
+  } else if (x > 0 && y < 0){
+    return 4
+  } else if (x < 0 && y > 0){
+    return 2
+  } else {
+    return 3
+  }
+}
