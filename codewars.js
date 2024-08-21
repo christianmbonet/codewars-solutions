@@ -4812,3 +4812,13 @@ function calculate(num1, operation, num2) {
      if(operation === '*') return num1 * num2;
      return null
  }
+
+// Calculating price excluding VAT
+
+function excludingVatPrice(price){
+  if (price == null){
+    return -1
+  } else {
+    return +(price/1.15).toFixed(2)
+  }
+}
