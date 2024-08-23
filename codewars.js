@@ -4832,3 +4832,25 @@ const highestRank = (arr) => {
   }
   return +Object.keys(obj).reduce((a, b) => (obj[a] > obj[b] ? a : b));
 }
+
+// Write number in expanded form repeat - wrong
+
+function expandedForm(num) {
+  let numStr = num.toString().split('');
+  for(let i = 0 ; i < numStr; i++ ){ 
+      for(let y = numStr.length; y > 1; y--){
+         numStr[i] += '0'; 
+      }
+  }
+  return numStr.join('+')
+}
+
+// Write number in expanded form - best answer found online
+
+const expandedForm = n => n.toString()
+                            .split("")
+                            .reverse()
+                            .map( (a, i) => a * Math.pow(10, i))
+                            .filter(a => a > 0)
+                            .reverse()
+                            .join(" + ");
