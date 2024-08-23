@@ -4822,3 +4822,13 @@ function excludingVatPrice(price){
     return +(price/1.15).toFixed(2)
   }
 }
+
+// Highest rank in an array
+
+const highestRank = (arr) => {
+  const obj = {};
+   for (let i of arr) {
+    obj[i] = obj[i] ? obj[i] + 1 : 1;
+  }
+  return +Object.keys(obj).reduce((a, b) => (obj[a] > obj[b] ? a : b));
+}
