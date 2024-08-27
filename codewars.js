@@ -4854,3 +4854,11 @@ const expandedForm = n => n.toString()
                             .filter(a => a > 0)
                             .reverse()
                             .join(" + ");
+
+// Classy extensions
+
+class Cat extends Animal {
+  speak() {
+    return `${this.name} meows.`
+  }
+}
