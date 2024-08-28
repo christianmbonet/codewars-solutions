@@ -4862,3 +4862,21 @@ class Cat extends Animal {
     return `${this.name} meows.`
   }
 }
+
+// String Transformer
+
+function stringTransformer(str) {
+  return str
+    .split(" ")
+    .reverse()
+    .join(" ")
+    .split("")
+    .map((char) => {
+      if (char.toLowerCase() === char) {
+        return char.toUpperCase();
+      } else {
+        return char.toLowerCase();
+      }
+    })
+    .join("");
+}
