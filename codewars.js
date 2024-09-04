@@ -4895,7 +4895,7 @@ function yearDays(year) {
   }
 }
 
-// Jumping Number (Special Numbers Series #4)
+// Jumping Number (Special Numbers Series #4) - error on test case
 
 function jumpingNumber(n){
   let str = n.toString().split()
