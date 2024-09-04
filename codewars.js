@@ -4894,3 +4894,14 @@ function yearDays(year) {
     return year + ' has 366 days';
   }
 }
+
+// Jumping Number (Special Numbers Series #4)
+
+function jumpingNumber(n){
+  let str = n.toString().split()
+  for (i=0; i < str.length - 1; i++){
+    if (Math.abs(str[i] - str[i+1] !== 1)){
+      return 'Not!!'
+    }
+    } return 'Jumping!!'
+}
