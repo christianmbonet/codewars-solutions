@@ -4924,3 +4924,9 @@ class Block {
     return 2 * (l*w + l*h + w*h);
   }
 }
+
+// Take an Arrow to the Knee, Functionally
+
+var ArrowFunc = function(arr) {
+  return arr.map(e => String.fromCharCode(e)).join('');
+}
