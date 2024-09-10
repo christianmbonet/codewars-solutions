@@ -4930,3 +4930,12 @@ class Block {
 var ArrowFunc = function(arr) {
   return arr.map(e => String.fromCharCode(e)).join('');
 }
+
+// Folding your way to the moon
+
+function foldTo(distance) {
+  if (distance <= 0) return null;
+  let counter = 0;
+  for (let i = 0.0001; i < distance; i *= 2) counter += 1;
+  return counter
+}
