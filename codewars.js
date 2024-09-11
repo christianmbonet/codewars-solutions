@@ -4939,3 +4939,10 @@ function foldTo(distance) {
   for (let i = 0.0001; i < distance; i *= 2) counter += 1;
   return counter
 }
+
+// Numbers to letters
+
+function switcher(x){
+  let rev = ' zyxwvutsrqponmlkjihgfedcba!? '
+  return x.map(el => rev[el]).join('')
+}
