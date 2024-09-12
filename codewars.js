@@ -4946,3 +4946,13 @@ function switcher(x){
   let rev = ' zyxwvutsrqponmlkjihgfedcba!? '
   return x.map(el => rev[el]).join('')
 }
+
+// Sum of numbers from 0 to N - throwing error? why?
+
+const sequenceSum = (begin, end, step) => {
+  let result = 0
+  for(let i = 0; i <= end; i += step){
+    result += i;
+  }
+  return result
+  }
