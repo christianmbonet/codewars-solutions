@@ -4956,3 +4956,13 @@ function deleteNth(arr,x) {
     return cache[n] <= x;
   });
 }
+
+// Twins: 1. Type
+
+function typeValidation(variable, type) {
+  if (typeof variable === type){
+    return true
+  } else {
+    return false
+  }
+}
