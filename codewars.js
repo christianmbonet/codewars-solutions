@@ -4972,3 +4972,9 @@ function typeValidation(variable, type) {
 function multipleOfIndex(array) {
   return array.filter((element, index) => element % index == 0 || element == 0)
 }
+
+// Filter the number
+
+var filterString = function(value) {
+  return parseInt(value.replace(/[a-z]/gi,''))
+}
