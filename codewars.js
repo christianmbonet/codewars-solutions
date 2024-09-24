@@ -4987,7 +4987,7 @@ var rooms = {
     items: {
       chair: 'The old chair looks comfortable',
       lamp: 'This lamp looks ancient'
-  },
+  }},
   second: {
     description: 'This is the second room',
     items: {
@@ -4996,4 +4996,3 @@ var rooms = {
     }
   }
 }
-  }
