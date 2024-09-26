@@ -5002,3 +5002,9 @@ var rooms = {
 function specialNumber(n){
   return /[6-9]/.test(n)?"NOT!!":"Special!!"
 }
+
+// Remove all the marked elements of a list
+
+Array.prototype.remove_ = function(integer_list, values_list){
+  return integer_list.filter(e => !values_list.includes(e))
+}
