@@ -5014,3 +5014,9 @@ Array.prototype.remove_ = function(integer_list, values_list){
 function swap (string) {
   return string.replace(/[aeuio]/gi,$1=>$1.toUpperCase())
 }
+
+// Over the road 
+
+function overTheRoad(address, n){
+  return n * 2 - address + 1
+}
