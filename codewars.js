@@ -5009,7 +5009,7 @@ Array.prototype.remove_ = function(integer_list, values_list){
   return integer_list.filter(e => !values_list.includes(e))
 }
 
-// Changing letters
+// Changing letters - still have questions
 
 function swap (string) {
   return string.replace(/[aeuio]/gi,$1=>$1.toUpperCase())
@@ -5020,3 +5020,9 @@ function swap (string) {
 function overTheRoad(address, n){
   return n * 2 - address + 1
 }
+
+// Longest vowel chain - still have questions
+
+function solve(s){
+  return Math.max(...s.split(/[^aoeiu]/i).map(s => s.length))
+ }
