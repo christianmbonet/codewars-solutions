@@ -5026,3 +5026,19 @@ function overTheRoad(address, n){
 function solve(s){
   return Math.max(...s.split(/[^aoeiu]/i).map(s => s.length))
  }
+
+// Cat and mouse - easy - wrong
+
+function catMouse(x){
+  if (x.indexOf('C') - x.indexOf('m') < 4 || x.indexOf('m') - x.indexOf('C')){
+    return 'Caught'
+  } else {
+    return 'Escaped'
+  }
+}
+
+// Cat and mouse - easy - what is this solution and why
+
+function catMouse(x){
+  return /\.\.\.\./.test(x)?"Escaped!":"Caught!"
+  }
