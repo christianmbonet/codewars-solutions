@@ -5071,3 +5071,34 @@ class God{
 class Human {}
 class Man extends Human {}
 class Woman extends Human {}
+
+// Training parts of a list
+
+function partlist(arr) {
+  let result = [],
+    side1 = '',
+    side2 = ''
+    for (let i = 0; i < arr.length; i++){
+      for (let j = 0; j <= i; i++){
+        if (j != 0){
+          side1 += ' '
+        }
+        side1 += arr[j]
+      }
+      for (let k = i + 1; k < arr.length; k++){
+        if (k != i + 1){
+          side2 += ' '
+        }
+        side2 += arr[k]
+      }
+      result.push([side1, side2])
+      side1 = ''
+      side2 = ''
+    } return result
+}
+
+// Training parts of a list
+
+function partlist(arr) {
+  return arr.map((_,index) => [arr.slice(0,index).join(' '), arr.slice(index).join(' ')]).slice(1)
+  }
