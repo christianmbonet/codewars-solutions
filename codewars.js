@@ -5121,3 +5121,13 @@ function longestConsec(strarr, k) {
  return arr.reduce(function (a, b) {
         return a.length > b.length ? a : a.length == b.length ? a : b;
     })}
+
+// Clean up after your dog
+
+function crap(x, bags, cap){
+  let crap=0;
+  let dog=0
+  x.map(v=>v.map(v=>v==='@'?crap+=1:v==='D'?dog+=1:v))
+  if (dog>0) return "Dog!!"
+  return crap>(bags*cap)?"Cr@p":"Clean"
+}
