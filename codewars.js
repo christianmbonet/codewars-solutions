@@ -5137,3 +5137,14 @@ function crap(x, bags, cap){
 function largest(n, array) {
   return array.sort((a,b)=>a-b).slice(array.length-n)
 }
+
+// Deaf Rats of Hamelin - working
+
+var countDeafRats = function(town) {
+  town.replace(/\s+/g, '')
+      .split('P')
+      .map((r, index) => {
+    const rats = r.match(/../g) || [];
+    return rats.filter(rat => rat[index] == '0').length
+  })
+}
