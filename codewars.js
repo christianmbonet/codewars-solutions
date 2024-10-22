@@ -5148,3 +5148,11 @@ var countDeafRats = function(town) {
     return rats.filter(rat => rat[index] == '0').length
   })
 }
+
+// Array leaders
+
+const arrayLeaders = numbers =>
+  numbers.filter((number, index) => {
+    const totalRight = numbers.slice(index + 1).reduce((total, number) => total + number, 0)
+    return number > totalRight
+  })
