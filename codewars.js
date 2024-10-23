@@ -5156,3 +5156,10 @@ const arrayLeaders = numbers =>
     const totalRight = numbers.slice(index + 1).reduce((total, number) => total + number, 0)
     return number > totalRight
   })
+
+// Maximum triplet amount
+
+function maxTriSum(numbers){
+  const sorted= [...new Set(numbers.sort((a,b)=>b-a))]
+ return sorted[0]+sorted[1]+sorted[2]
+}
