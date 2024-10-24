@@ -5163,3 +5163,38 @@ function maxTriSum(numbers){
   const sorted= [...new Set(numbers.sort((a,b)=>b-a))]
  return sorted[0]+sorted[1]+sorted[2]
 }
+
+// Linked lists - Length and Count
+
+function Node(data) {
+  this.data = data;
+  this.next = null;
+}
+
+function length(head) {
+  let length = 1
+  if (!head){
+    return 0
+  } while(head.next){
+    length++
+    head = head.next
+  } return length
+}
+
+function count(head, data) {
+  if(!head){
+    return 0
+  }
+  
+  let count = 0
+  while (head.next){
+    if(head.data === data){
+      count++
+    }
+    head = head.next
+  }
+  if (head.data === data){
+    count++
+  }
+  return count
+}
