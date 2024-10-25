@@ -5198,3 +5198,26 @@ function count(head, data) {
   }
   return count
 }
+
+// Directions reduction - my solution (wrong)
+
+//   let directions = [];
+//     for (let i = 0; i < array.length - 1; i++) {
+//       if (
+//         (array[i] === "NORTH" && array[i + 1] === "SOUTH") ||
+//         (array[i] === "SOUTH" && array[i + 1] === "NORTH") ||
+//         (array[i] === "EAST" && array[i + 1] === "WEST") ||
+//         (array[i] === "WEST" && array[i + 1] === "EAST")
+//       )
+//         directions.push(array[i]);
+//     }
+//     return directions
+//   }
+
+// Directions reduction - correct solution
+
+function dirReduc(arr){
+  let str = arr.join(''), pattern = /NORTHSOUTH|EASTWEST|SOUTHNORTH|WESTEAST/;
+  while (pattern.test(str)) str = str.replace(pattern,'');
+  return str.match(/(NORTH|SOUTH|EAST|WEST)/g)||[];
+}
