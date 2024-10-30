@@ -5246,3 +5246,18 @@ function checkThreeAndTwo(array) {
   let c=array.filter(value=>value.match('c')).length
     return ((a===3||b===3||c===3)&&(a===2||b===2||c===2))
   }
+
+// Mexican wave
+
+function wave(str){
+  let waveArr = [];
+ for(let i = 0; i < str.length; i++) {
+   let letter = str[i];
+   if (letter === " ") {
+     continue;
+   } else {
+     waveArr.push(str.slice(0, i) + letter.toUpperCase() + str.slice(i + 1))
+   } 
+ }
+ return waveArr;
+}
