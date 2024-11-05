@@ -5270,3 +5270,23 @@ function foldTo(distance) {
   }
   return distance > 0 ? 0 : null;
 }
+
+// Word values
+
+function wordValue(a) {
+  const result = []
+  for (let i = 0; i < a.length; i++){
+    let sum = 0
+    for (let char of a[i]){
+      sum += charValue(char)
+    }
+    result.push(sum * (i + 1))
+  } 
+  return result
+}
+
+function charValue(c){
+  if (c === ' '){
+    return 0
+  } return c.charCodeAt() - 96
+}
