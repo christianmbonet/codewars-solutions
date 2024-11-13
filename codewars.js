@@ -5301,3 +5301,9 @@ function fuelPrice(litres, pricePerLiter) {
   if(litres > 1) return Number((litres * (pricePerLiter - 0.5)).toFixed(2));
   return litres * pricePerLiter;
 }
+
+// All star code challenge #3
+
+var removeVowels = function(str){
+  return str.replace(/[aeiou]/gi, '')
+  }
