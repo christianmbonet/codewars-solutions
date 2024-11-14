@@ -5307,3 +5307,13 @@ function fuelPrice(litres, pricePerLiter) {
 var removeVowels = function(str){
   return str.replace(/[aeiou]/gi, '')
   }
+
+// Return the first M multiples of N
+
+function multiples(m, n){
+  const arr=[];
+  for (let i=1;i<=m;i++){
+  arr.push(n*i)
+  }
+  return arr
+}
