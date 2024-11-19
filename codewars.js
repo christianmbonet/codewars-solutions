@@ -5324,3 +5324,9 @@ function nthSmallest(arr, pos){
   arr.sort((a,b) => a - b)
   return arr[pos-1]
 }
+
+// Substituting Variables Into Strings: Padded Numbers
+
+function solution(value){
+  return `Value is ${String(value).padStart(5,'0')}`;
+}
