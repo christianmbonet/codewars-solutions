@@ -5330,3 +5330,9 @@ function nthSmallest(arr, pos){
 function solution(value){
   return `Value is ${String(value).padStart(5,'0')}`;
 }
+
+// Filter the number - repeat
+
+var filterString = function(value) {
+  return parseInt(value.replace(/[a-z]/gi,''))
+}
