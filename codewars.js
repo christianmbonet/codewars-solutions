@@ -5346,3 +5346,9 @@ function lastSurvivor(letters, coords) {
         }
         return letters.join('')
 }
+
+// Sort arrays - 1
+
+function sortme(names){
+  return names.sort()
+}
