@@ -5358,3 +5358,12 @@ function sortme(names){
 function alphabetPosition(text) {
   return text.split('').filter(v=>/[a-zA-Z]/.test(v)).map(v=>v.toLowerCase().charCodeAt(0)-96).join(' ')
 }
+
+// Count most frequent item of an array
+
+function mostFrequentItemCount(collection) {
+  return collection.length ? Math.max(
+   ...collection.map(
+   element => collection.filter(
+   element2 => element2 == element).length)) : 0
+ }
